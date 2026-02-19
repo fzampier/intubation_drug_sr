@@ -1,0 +1,162 @@
+# Data Extraction Form — Dormans (Punt) 2014
+
+**Extractor:** Claude
+**Date:** 2026-02-18
+**Source PDF:** `Included Papers/Dormans - Netherlands (2014).pdf`
+
+---
+
+## 1. Study Identification
+
+| Field | Value |
+|-------|-------|
+| First author | Punt CD (Dormans TPJ is second author) |
+| Year | 2014 |
+| Journal | Netherlands Journal of Critical Care |
+| Country | The Netherlands |
+| Trial name / acronym | — |
+| Registration (NCT/ISRCTN) | ISRCTN39347168 |
+| Funding | Not reported (institutional — Atrium Medical Centre) |
+| Ethics approval | METC number 11-N-94 (waiver of informed consent) |
+
+## 2. Study Design
+
+| Field | Value |
+|-------|-------|
+| Design | Prospective, cluster-randomized, parallel-group |
+| Blinding | Open-label |
+| Setting | ICU (mixed medical/surgical) |
+| Number of sites | 1 (Atrium Medical Centre, Heerlen — 3 equivalent ICU units, 21 beds total) |
+| Enrollment period | April 2008 to end of 2009 |
+
+*Note on cluster randomization: For the first 10 months, etomidate was used in 2 of 3 ICU units and S-ketamine in the third; after 10 months the agents were reversed. Patient allocation to units was by nursing staff (not involved in study, not aware of study allocation), not by medical staff.*
+
+## 3. Population
+
+| Field | Etomidate | S-ketamine |
+|-------|-----------|------------|
+| Agent | Etomidate | S-ketamine + Midazolam |
+| Randomized (n) | 161 (after exclusions) | 140 (after exclusions) |
+| Analyzed (n) | 161 | 140 |
+| Age, mean (SD) | 66 (14) | 67 (13) |
+| Male sex, n (%) | 95 (59%) | 89 (64%) |
+| Primary indication | Mixed (sepsis, COPD, cardiac failure, other) | Mixed |
+| Severity score (APACHE II, mean±SD) | 25 (7) | 24 (7) |
+| Baseline MAP, mmHg | Not reported | Not reported |
+| Baseline SBP, mmHg | Not reported | Not reported |
+| On vasopressors at baseline, n (%) | Not reported (norepinephrine hours post-intubation reported) | |
+| Sepsis, n | 58 | 54 |
+
+*Diagnoses:*
+
+| Diagnosis | Etomidate | S-ketamine |
+|-----------|-----------|------------|
+| Sepsis | 58 | 54 |
+| COPD | 13 | 14 |
+| Cardiac failure | 25 | 15 |
+| Other | 65 | 57 |
+| p (overall) | 0.858 | |
+
+*Steroid patients (clinical therapy):* E 59, K 61, p=0.269
+
+**Key inclusion criteria:**
+- All critically ill adult patients intubated in one of the 3 ICU units
+- Intubated shortly after admission or during ICU stay
+- Patients with cerebral pathology not excluded
+
+**Key exclusion criteria:**
+- Already intubated before ICU admission
+- Received etomidate <72 hours before enrollment
+
+## 4. Interventions
+
+| Field | Etomidate | S-ketamine |
+|-------|-----------|------------|
+| Induction agent | Etomidate (Etomidaat Lipuro, Braun) | S-ketamine (Ketanest-S, Pfizer) |
+| Dose (mg/kg) | 0.2–0.3 mg/kg | 0.5 mg/kg |
+| Actual dose administered | Not reported | Not reported |
+| Route | IV | IV |
+| Co-induction / adjunct agents | None specified | **Midazolam 2.5 mg** (to avoid psychological reactions) |
+| NMBA type | Rocuronium | Rocuronium |
+| NMBA dose (mg/kg) | Not reported | Not reported |
+| Preoxygenation strategy | Not described | Not described |
+| RSI protocol (strict/pragmatic) | Pragmatic (opioid use at discretion of attending intensivist) | Pragmatic |
+
+## 5. Outcomes
+
+### 5a. Mortality (PRIMARY)
+
+| Field | Etomidate | S-ketamine |
+|-------|-----------|------------|
+| Timepoint | 28-day | 28-day |
+| Deaths / N | 61 / 161 | 54 / 140 |
+| Percentage | 38% | 39% |
+| Effect estimate (OR/RR/RD) | Not reported | |
+| 95% CI | Not reported | |
+| p-value | 0.998 | |
+
+*Note: Patients followed for 28 days even after ICU discharge.*
+
+### 5b. Cardiovascular Collapse
+
+Not reported as a composite endpoint.
+
+### 5c. Post-induction Hypotension
+
+Not reported as a binary event.
+
+### 5d. Vasopressor Initiation or Escalation
+
+| Field | Etomidate | S-ketamine |
+|-------|-----------|------------|
+| Definition used | Norepinephrine infusion hours during first 72h post-intubation |
+| Timepoint | 72 hours |
+| Hours, mean (SD) | 26 (31) | 29 (29) |
+| p-value | 0.389 |
+
+*Note: This is a continuous measure (hours of norepinephrine), not a binary event count.*
+
+### 5e. First-Pass Intubation Success
+
+Not reported.
+
+### 5f. Other — Cortisol
+
+| Timepoint | Etomidate (n=64) | S-ketamine (n=73) | p |
+|-----------|------------------|-------------------|---|
+| t=0 (mmol/L), mean (SD) | 0.89 (0.53) | 1.04 (0.59) | 0.122 |
+| t=24h | 0.66 (0.37)* | 0.69 (0.53)* | 0.705 |
+| t=48h | 0.67 (0.50)** | 0.67 (0.50)* | 1.000 |
+
+*\*p<0.01 vs t=0; \*\*p<0.02 vs t=0. Cortisol levels decreased significantly in both groups. Only included if all 3 measurements available.*
+
+### 5g. Other — Length of Stay
+
+| Field | Etomidate | S-ketamine |
+|-------|-----------|------------|
+| ICU LOS, days, mean (SD) | 16 (25) | 19 (27) |
+| p-value | 0.318 |
+
+*Note: If a patient died within 28 days after discharge from ICU, they were not included in the LOS group.*
+
+## 6. Risk of Bias (RoB 2) — for mortality outcome
+
+| Domain | Judgement | Support |
+|--------|----------|---------|
+| D1: Randomization process | High risk | Cluster-randomized by ICU unit (not individual randomization). Nursing staff allocated patients to units without knowledge of study, but allocation was predictable (each unit used same drug for ~10 months before crossover). No formal allocation concealment. Baseline characteristics balanced (Table 1). |
+| D2: Deviations from intended interventions | Some concerns | Open-label. Clinicians knew which drug was administered. Midazolam 2.5 mg adjunct added only to S-ketamine arm (systematic co-intervention difference). Corticosteroid use was comparable between groups (E 59, K 61). |
+| D3: Missing outcome data | Low risk | 322 initially included; 21 excluded (received etomidate <72h before) — clear accounting. 301 analyzed. |
+| D4: Measurement of the outcome | Low risk | 28-day mortality is objective. Patients followed even after ICU discharge. |
+| D5: Selection of reported result | Low risk | Trial registered (ISRCTN39347168). 28-day mortality was the pre-specified primary endpoint. |
+| **Overall** | **High risk** | **Cluster-randomization without individual allocation concealment; open-label design with systematic co-intervention difference (midazolam added only to S-ketamine arm).** |
+
+## 7. Notes
+
+- **FLAG FOR SENSITIVITY ANALYSIS:** S-ketamine arm received midazolam 2.5 mg adjunct — this is a systematic co-intervention not applied to etomidate arm.
+- **S-ketamine** (not racemic ketamine) was used. Per protocol, esketamine/S-ketamine is grouped under the Ketamine node for NMA.
+- Cluster-randomized design is a major limitation: units may differ in unmeasured ways despite being described as "equivalent."
+- Largest study in the review comparing etomidate vs (S-)ketamine in ICU setting (N=301).
+- Sample size calculation: powered to detect a 15% mortality difference (α=0.05 one-sided, power 90%), requiring ≥106/group.
+- Cortisol levels declined significantly in BOTH groups at 24h and 48h — not just in etomidate group.
+- No hemodynamic data (MAP, SBP) reported at intubation.
+- For NMA: use 61/161 (etomidate) vs 54/140 (S-ketamine) for 28-day mortality.

@@ -1,0 +1,11 @@
+study,year,country,journal,setting,multicenter,n_randomized,n_analyzed,comparison,treat1,treat2,blinding,registration,rob_overall,sepsis_only,midazolam_adjunct,cluster_randomized,primary_endpoint_original,severity_score_type,severity_score_mean
+Jabre 2009,2009,France,Lancet,Mixed,Yes,655,469,Etomidate vs Ketamine,Etomidate,Ketamine,Single-blind,NCT00440102,Some concerns,No,No,No,Max SOFA,SAPS II,50.9
+Cinar 2011,2011,Turkey,J Turkish Soc Intensive Care,ICU,No,22,22,Etomidate vs Ketamine,Etomidate,Ketamine,Double-blind,None,Some concerns,No,Yes,No,Hemodynamic response,APACHE II,30.2
+Dormans 2014,2014,Netherlands,Neth J Crit Care,ICU,No,301,301,Etomidate vs Ketamine,Etomidate,Ketamine,Open-label,ISRCTN39347168,High risk,No,Yes,Yes,28-day mortality,APACHE II,24.5
+Smischney 2019,2019,USA,J Trauma Acute Care Surg,ICU,No,160,152,Etomidate vs Ketofol,Etomidate,Ketofol,Open-label,NCT02105415,Some concerns,No,No,No,MAP change at 5 min,APACHE III,86.3
+Matchett 2022,2022,USA,Intensive Care Med,ICU,No,801,791,Etomidate vs Ketamine,Etomidate,Ketamine,Open-label,NCT02643381,Some concerns,No,No,No,Day 7 survival,Knaus,NA
+Knack 2023,2023,USA,J Emerg Med,ED,No,143,143,Etomidate vs Ketamine,Etomidate,Ketamine,Partially blinded,NCT01823328,Some concerns,No,No,No,Max SOFA,GCS median,7.5
+Srivilaithon 2023,2023,Thailand,Scientific Reports,ED,No,260,260,Etomidate vs Ketamine,Etomidate,Ketamine,Single-blind,TCTR20210213001,Some concerns,Yes,No,No,28-day survival,qSOFA,2.15
+Casey 2025,2025,USA,N Engl J Med,Mixed,Yes,2365,2359,Etomidate vs Ketamine,Etomidate,Ketamine,Open-label,NCT05277896,Some concerns,No,No,No,28-day in-hospital mortality,APACHE II,18
+Agarwal 2025,2025,India,SSR-IIJLS,ED,No,80,80,Etomidate vs Ketamine,Etomidate,Ketamine,Single-blind,None,Some concerns,Yes,No,No,24-hour survival,qSOFA,2.15
+Schmidt 2025,2025,Brazil,Under review,ICU,Yes,207,175,Propofol vs Ketamine,Propofol,Ketamine,Open-label,NCT05092152,Some concerns,No,No,No,Lowest MAP within 10 min,SAPS 3,63

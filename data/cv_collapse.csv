@@ -1,0 +1,7 @@
+study,year,treat,events,n,definition,time_window,notes
+Matchett 2022,2022,Etomidate,69,396,SBP<65 OR vasopressor bolus/escalation OR cardiac arrest/death,Within 1 hour,Vanderbilt definition
+Matchett 2022,2022,Ketamine,99,395,SBP<65 OR vasopressor bolus/escalation OR cardiac arrest/death,Within 1 hour,Vanderbilt definition
+Casey 2025,2025,Etomidate,202,1189,SBP<65 OR new/increased vasopressors OR cardiac arrest,Induction to 2 min after intubation,
+Casey 2025,2025,Ketamine,260,1176,SBP<65 OR new/increased vasopressors OR cardiac arrest,Induction to 2 min after intubation,
+Schmidt 2025,2025,Propofol,28,84,SBP<=65 within 2 min OR cardiac arrest within 1h OR increased vasopressor within 2 min,Within 2 min / 1 hour,Tertiary outcome
+Schmidt 2025,2025,Ketamine,20,91,SBP<=65 within 2 min OR cardiac arrest within 1h OR increased vasopressor within 2 min,Within 2 min / 1 hour,Tertiary outcome

@@ -1,0 +1,13 @@
+study,year,treat,events,n,notes
+Matchett 2022,2022,Etomidate,357,391,5 patients missing attempt data
+Matchett 2022,2022,Ketamine,355,389,6 patients missing attempt data
+Knack 2023,2023,Ketamine,66,70,
+Knack 2023,2023,Etomidate,65,73,
+Srivilaithon 2023,2023,Etomidate,116,130,
+Srivilaithon 2023,2023,Ketamine,114,130,
+Casey 2025,2025,Ketamine,1005,1173,Among 2360 intubated with laryngoscope
+Casey 2025,2025,Etomidate,1029,1187,Among 2360 intubated with laryngoscope
+Agarwal 2025,2025,Etomidate,36,40,
+Agarwal 2025,2025,Ketamine,35,40,
+Schmidt 2025,2025,Ketamine,69,91,78% by resident physicians
+Schmidt 2025,2025,Propofol,62,84,78% by resident physicians

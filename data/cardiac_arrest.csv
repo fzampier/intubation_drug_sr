@@ -1,0 +1,15 @@
+study,year,treat,events,n,definition,notes
+Jabre 2009,2009,Etomidate,7,234,Cardiac arrest during intubation,mITT denominators
+Jabre 2009,2009,Ketamine,4,235,Cardiac arrest during intubation,mITT denominators
+Cinar 2011,2011,Etomidate,1,12,Peri-intubation cardiac arrest,
+Cinar 2011,2011,Ketamine,1,10,Peri-intubation cardiac arrest,
+Smischney 2019,2019,Etomidate,0,73,Peri-intubation cardiac arrest,
+Smischney 2019,2019,Ketofol,2,79,Peri-intubation cardiac arrest,1 PEA possibly drug-related
+Srivilaithon 2023,2023,Etomidate,2,130,Cardiac arrest during intubation,
+Srivilaithon 2023,2023,Ketamine,2,130,Cardiac arrest during intubation,
+Casey 2025,2025,Ketamine,12,1176,Cardiac arrest induction to 2 min,Component of CV collapse
+Casey 2025,2025,Etomidate,10,1189,Cardiac arrest induction to 2 min,Component of CV collapse
+Agarwal 2025,2025,Etomidate,1,40,Peri-intubation cardiac arrest,
+Agarwal 2025,2025,Ketamine,1,40,Peri-intubation cardiac arrest,
+Schmidt 2025,2025,Ketamine,5,91,Cardiac arrest within 1 hour,Component of CV collapse
+Schmidt 2025,2025,Propofol,4,84,Cardiac arrest within 1 hour,Component of CV collapse
