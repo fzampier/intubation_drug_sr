@@ -1,0 +1,21 @@
+# Table 1. Characteristics of Included Studies
+
+| Study | N | Population | Comparison | Induction Dose | NMBA | Primary Outcome (Original) | Key Secondary Outcomes |
+|-------|--:|------------|------------|----------------|------|----------------------------|------------------------|
+| Jabre 2009 (KETASED) | 469 | Prehospital/ED → ICU, multicenter (12 sites), France | Etomidate vs Ketamine | E 0.3 mg/kg vs K 2 mg/kg | Succinylcholine 1 mg/kg | Maximum SOFA score (days 1–3) | 28-day mortality; adrenal insufficiency |
+| Cinar 2011 | 22 | ICU, single-center, Turkey | Etomidate vs Ketamine\* | E 0.3 mg/kg vs K 2 mg/kg + midazolam 0.03 mg/kg | None | Hemodynamic response | ICU mortality; cortisol levels |
+| Dormans 2014 | 301 | ICU, single-center (cluster-randomized), Netherlands | Etomidate vs S-ketamine\* | E 0.2–0.3 mg/kg vs SK 0.5 mg/kg + midazolam 2.5 mg | Rocuronium | 28-day mortality | Cortisol; ACTH stimulation test; ICU LOS |
+| Smischney 2019 (KEEP PACE) | 152 | ICU, single-center, USA | Etomidate vs Ketofol | E 0.15 mg/kg vs KP 0.5 + 0.5 mg/kg† | Succinylcholine (57%) or rocuronium (36%) | MAP change at 5 min post-induction | Hospital mortality; adrenal insufficiency; vasopressor use |
+| Matchett 2022 (EvK) | 791 | ICU, single-center, USA | Etomidate vs Ketamine | E 0.2–0.3 mg/kg vs K 1–2 mg/kg | Rocuronium (81%) or succinylcholine (18%) | Day 7 survival | 28-day mortality; CV collapse; hemodynamics |
+| Knack 2023 | 143 | ED, single-center, USA | Etomidate vs Ketamine | E 0.3 mg/kg vs K 2 mg/kg | Succinylcholine (92%) | Maximum SOFA score‡ | 30-day mortality; hypotension; first-pass success |
+| Srivilaithon 2023 | 260 | ED (sepsis only), single-center, Thailand | Etomidate vs Ketamine | E 0.2–0.3 mg/kg vs K 1–2 mg/kg | Succinylcholine 1.5 mg/kg§ | 28-day survival | Hypotension; vasopressor use 24 h; first-pass success |
+| Casey 2025 (RSI) | 2,359 | ED (56%) + ICU (44%), multicenter (14 sites), USA | Etomidate vs Ketamine | E 0.2–0.3 mg/kg vs K 1.0–2.0 mg/kg | Rocuronium (69%) or succinylcholine (31%) | 28-day in-hospital mortality | CV collapse; vasopressor use; first-pass success |
+| Agarwal 2025 | 80 | ED (sepsis only), single-center, India | Etomidate vs Ketamine | E 0.2–0.3 mg/kg vs K 1–2 mg/kg | Succinylcholine§ | 24-hour survival | 28-day mortality; vasopressor use 24 h; hypotension |
+| Schmidt 2025 (PROMINE) | 175 | ICU, multicenter (2 sites), Brazil | Propofol vs Esketamine | P 1.5 mg/kg vs ESK 2 mg/kg | Rocuronium 1.2 mg/kg (98%) | Lowest MAP within 10 min | Hospital mortality; CV collapse; vasopressor use |
+
+N = number of patients analyzed. E = etomidate; K = ketamine; SK = S-ketamine; ESK = esketamine; P = propofol; KP = ketamine–propofol admixture. CV = cardiovascular; LOS = length of stay; MAP = mean arterial pressure; SOFA = Sequential Organ Failure Assessment.
+
+\* Ketamine arm included midazolam adjunct — flagged for sensitivity analysis.
+† Both drugs at reduced doses; fentanyl 50 µg co-administered in both arms.
+‡ Primary outcome changed mid-trial from mortality to maximum SOFA score.
+§ NMBA use differed significantly between groups (p = 0.04).

@@ -26,8 +26,6 @@
 
 ---
 
-\newpage
-
 # 1. Jabre 2009 (KETASED)
 
 **Extractor:** Claude
@@ -167,8 +165,6 @@ Not defined as a composite in this study.
 
 ---
 
-\newpage
-
 # 2. Cinar 2011
 
 **Extractor:** Claude
@@ -285,8 +281,6 @@ Not reported as first-pass. Additional sedation needed: E 1/12 (8%) vs K 1/10 (1
 
 ---
 
-\newpage
-
 # 3. Dormans 2014
 
 **Extractor:** Claude
@@ -399,8 +393,6 @@ Not reported as first-pass. Additional sedation needed: E 1/12 (8%) vs K 1/10 (1
 - For NMA: use 61/161 (etomidate) vs 54/140 (S-ketamine) for 28-day mortality.
 
 ---
-
-\newpage
 
 # 4. Smischney (KEEP PACE) 2019
 
@@ -522,8 +514,6 @@ Not reported as first-pass. Additional sedation needed: E 1/12 (8%) vs K 1/10 (1
 - For NMA: use 25/79 (ketofol) vs 26/73 (etomidate) for hospital mortality.
 
 ---
-
-\newpage
 
 # 5. Matchett (EvK) 2022
 
@@ -647,8 +637,6 @@ E 357/391 (91.3%) vs K 355/389 (91.3%), difference 0 pp (95% CI −3.9 to 4).
 
 ---
 
-\newpage
-
 # 6. Knack 2023
 
 **Extractor:** Claude
@@ -750,8 +738,6 @@ E 357/391 (91.3%) vs K 355/389 (91.3%), difference 0 pp (95% CI −3.9 to 4).
 - For NMA: use 8/70 (ketamine) vs 15/73 (etomidate) for 30-day mortality.
 
 ---
-
-\newpage
 
 # 7. Srivilaithon 2023
 
@@ -878,8 +864,6 @@ E 116/130 (89.2%) vs K 114/130 (87.7%), p=0.846.
 - For NMA: use 25/130 (etomidate) vs 35/130 (ketamine) for 28-day mortality.
 
 ---
-
-\newpage
 
 # 8. Casey (RSI) 2025
 
@@ -1013,8 +997,6 @@ K 1,005/~1,173 (85.7%) vs E 1,029/~1,187 (86.7%), RD −1.0 pp (95% CI −3.8 to
 
 ---
 
-\newpage
-
 # 9. Agarwal 2025
 
 **Extractor:** Claude
@@ -1133,8 +1115,6 @@ E 36/40 (90.0%) vs K 35/40 (87.5%), p=0.846.
 - For NMA: use 8/40 (etomidate) vs 11/40 (ketamine) for 28-day mortality.
 
 ---
-
-\newpage
 
 # 10. Schmidt (PROMINE) 2025
 
@@ -1283,8 +1263,6 @@ Esketamine 69/91 (76%) vs Propofol 62/84 (74%). Relatively low — reflects ICU 
 - For NMA: use 55/91 (esketamine/ketamine) vs 42/84 (propofol) for hospital mortality.
 
 ---
-
-\newpage
 
 # Risk of Bias Summary
 
