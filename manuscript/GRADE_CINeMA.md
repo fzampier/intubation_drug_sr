@@ -126,23 +126,6 @@
 
 ---
 
-### Vasopressor Use (Extended, Days 1–4) — Etomidate vs Ketamine — OR 0.78 (0.62–0.97)
-
-| Domain | Judgement | Rationale |
-|---|---|---|
-| Within-study bias | Some concerns | 2 direct studies (Jabre, Matchett), both "some concerns." |
-| Reporting bias | Some concerns | Only 3 studies in NMA. |
-| Indirectness | Some concerns | Different timeframes: "ICU stay" (Jabre) vs "Days 1–4" (Matchett) vs "15 min to 24h" (Smischney). |
-| Imprecision | Some concerns | Marginally significant (upper CI = 0.97). |
-| Heterogeneity | No concerns | I² = 0%. |
-| Incoherence | No concerns | |
-
-**Overall certainty: LOW** (downgraded for within-study bias and indirectness)
-
-**Interpretation:** Low certainty that ketamine reduces extended vasopressor use compared to etomidate. The direction reversal (ketamine worse short-term, better long-term) may reflect etomidate-induced adrenal suppression, but time-window definitions are heterogeneous.
-
----
-
 ## SUMMARY OF FINDINGS TABLE — MORTALITY
 
 | Comparison | Studies (N) | OR (95% CI) | Absolute effect per 1,000 (at baseline risk 30%) | Certainty | Plain language |
@@ -163,7 +146,6 @@
 | CV collapse | 2 (2,760) | 1.44 (1.20–1.71) | **MODERATE** | Ketamine increases risk |
 | Hypotension | 4 (2,899) | 1.32 (1.05–1.65) | **LOW** | Ketamine probably increases risk |
 | Vasopressor (peri) | 2 (2,667) | 1.43 (1.16–1.77) | **LOW** | Ketamine increases short-term use |
-| Vasopressor (extended) | 2 (1,260) | 0.78 (0.62–0.97) | **LOW** | Ketamine may reduce extended use |
 | First-pass success | 5 (3,303) | 0.94 (0.77–1.15) | **MODERATE** | Probably no difference |
 | Cardiac arrest | 5 (3,410) | 1.03 (0.55–1.93) | **LOW** | Uncertain; probably no difference |
 

@@ -7,6 +7,5 @@ B,Cardiovascular collapse,Ketamine vs Etomidate,2,3156,NMA (k=3),1.44,1.20,1.71,
 B,Post-induction hypotension,Ketamine vs Etomidate,4,2776,NMA (k=5),1.32,1.05,1.65,0,Low
 B,Vasopressor use peri-intubation,Ketamine vs Etomidate,2,2387,NMA (k=4),1.43,1.16,1.77,0,Low
 B,Vasopressor use 24 hours,Ketamine vs Etomidate,3,2501,Pairwise (k=3),2.13,0.80,5.70,93,Very low
-B,Vasopressor use extended,Ketamine vs Etomidate,2,1260,NMA (k=3),0.78,0.62,0.97,0,Low
 B,First-pass intubation success,Ketamine vs Etomidate,5,3623,NMA (k=6),0.94,0.77,1.15,0,Moderate
 B,Peri-intubation cardiac arrest,Ketamine vs Etomidate,5,3196,NMA (k=7),0.97,0.52,1.81,0,Low
