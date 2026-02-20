@@ -5,6 +5,8 @@ Cinar 2011,2011,Etomidate,1,12,Peri-intubation cardiac arrest,
 Cinar 2011,2011,Ketamine,1,10,Peri-intubation cardiac arrest,
 Smischney 2019,2019,Etomidate,0,73,Peri-intubation cardiac arrest,
 Smischney 2019,2019,Ketofol,2,79,Peri-intubation cardiac arrest,1 PEA possibly drug-related
+Matchett 2022,2022,Etomidate,13,345,Post-induction CPR,~12% missing; nurses code sheets unavailable for 51/396 E and 41/395 K
+Matchett 2022,2022,Ketamine,18,354,Post-induction CPR,~12% missing; nurses code sheets unavailable for 51/396 E and 41/395 K
 Srivilaithon 2023,2023,Etomidate,2,130,Cardiac arrest during intubation,
 Srivilaithon 2023,2023,Ketamine,2,130,Cardiac arrest during intubation,
 Casey 2025,2025,Ketamine,12,1176,Cardiac arrest induction to 2 min,Component of CV collapse

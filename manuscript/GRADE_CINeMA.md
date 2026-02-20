@@ -111,7 +111,7 @@
 
 ---
 
-### Vasopressor Use (Peri-intubation) — Etomidate vs Ketamine — OR 1.43 (1.16–1.77)
+### Vasopressor Use (Peri-intubation) — Etomidate vs Ketamine — OR 1.45 (1.21–1.74)
 
 | Domain | Judgement | Rationale |
 |---|---|---|
@@ -145,9 +145,9 @@
 |---|---|---|---|---|
 | CV collapse | 2 (2,760) | 1.44 (1.20–1.71) | **MODERATE** | Ketamine increases risk |
 | Hypotension | 4 (2,899) | 1.32 (1.05–1.65) | **LOW** | Ketamine probably increases risk |
-| Vasopressor (peri) | 2 (2,667) | 1.43 (1.16–1.77) | **LOW** | Ketamine increases short-term use |
+| Vasopressor (peri) | 3 (3,086) | 1.45 (1.21–1.74) | **LOW** | Ketamine increases short-term use |
 | First-pass success | 5 (3,303) | 0.94 (0.77–1.15) | **MODERATE** | Probably no difference |
-| Cardiac arrest | 5 (3,410) | 1.03 (0.55–1.93) | **LOW** | Uncertain; probably no difference |
+| Cardiac arrest | 6 (3,895) | 1.12 (0.70–1.80) | **LOW** | Uncertain; probably no difference |
 
 ---
 
