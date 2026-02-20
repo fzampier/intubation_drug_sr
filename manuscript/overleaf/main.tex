@@ -196,25 +196,19 @@ Certainty was moderate for the etomidate--ketamine mortality comparison (downgra
 % ============================================================================
 \section{Discussion}
 
-% TODO: Write discussion
-% Key points to cover:
-% - Principal findings: no mortality difference E vs K (moderate certainty)
-% - Hemodynamic trade-off: ketamine worse short-term, etomidate worse long-term
-% - Propofol evidence very limited (single trial, PROMINE)
-% - Comparison with previous meta-analyses (Wan 2024, Alshahrani 2024)
-% - Biological plausibility: etomidate adrenal suppression vs ketamine myocardial depression
-% - The PROMINE trial context (esketamine, high-acuity ICU)
-% - Casey 2025: largest trial, drives most estimates
-% - Limitations:
-%   - Open-label designs (but mortality is objective)
-%   - Sparse network (E-P indirect only)
-%   - Heterogeneous outcome definitions (hypotension, vasopressor)
-%   - Cannot assess baseline vasopressor subgroup
-%   - English-only
-%   - Ketofol evidence from single small trial with reduced doses
-% - Clinical implications: both agents reasonable; choice may depend on
-%   anticipated hemodynamic trajectory and risk of adrenal suppression
-% - Future research: direct E vs P trials, standardized hemodynamic outcomes
+In this systematic review and network meta-analysis of 10 randomized trials enrolling 4,752 critically ill adults, we found that etomidate and ketamine probably result in similar short-term mortality (moderate certainty). However, the two agents showed divergent hemodynamic profiles: ketamine was associated with greater peri-intubation cardiovascular instability, while etomidate was associated with greater delayed vasopressor requirements. Evidence for propofol and ketofol was extremely limited, with comparisons involving these agents supported by single small trials or indirect evidence alone.
+
+Our mortality findings are consistent with all five recent pairwise meta-analyses comparing etomidate and ketamine.\cite{kotani2023,koroki2024,greer2025,daghmouri2025,demorais2025} The present analysis extends this evidence by incorporating propofol and ketofol into a network framework for the first time. Notably, a large observational study from the Brazilian Airway Registry (BARCO) reported higher 28-day mortality with etomidate than with ketamine (60.5\% vs 54.4\%).\cite{maia2025} The discordance between that observational finding and the randomized evidence synthesized here likely reflects residual confounding---etomidate may be preferentially selected for patients perceived to be at higher hemodynamic risk---though the possibility of a real but modest effect that randomized trials have been underpowered to detect individually cannot be excluded.
+
+The hemodynamic trade-off between agents is perhaps the most clinically informative finding of this review. Ketamine was associated with higher odds of cardiovascular collapse, post-induction hypotension, and peri-intubation vasopressor use compared with etomidate. This may seem paradoxical given ketamine's sympathomimetic properties, but critically ill patients are often catecholamine-depleted, blunting the indirect sympathetic stimulation on which ketamine's hemodynamic stability depends. In this setting, ketamine's direct myocardial depressant effect may predominate. Conversely, etomidate was associated with higher extended vasopressor requirements (beyond 24 hours), consistent with its well-characterized inhibition of 11$\beta$-hydroxylase and consequent adrenal suppression.\cite{albert2011} The reversal in vasopressor effect direction across time points---favoring etomidate acutely but ketamine over extended periods---suggests that the hemodynamic consequences of induction agent choice extend well beyond the peri-intubation window.
+
+The evidence for propofol in this context is remarkably sparse. Propofol is arguably the most widely used induction agent in clinical practice globally, yet PROMINE\cite{schmidt2025} is the only randomized trial to have compared it with any other agent for emergency intubation in critically ill adults. As a result, the etomidate--propofol comparison in our network relies entirely on indirect evidence and was rated as very low certainty. This represents a striking gap: the critical care community has debated etomidate versus ketamine for over 15 years while generating virtually no randomized evidence for the drug most anesthesiologists and intensivists use daily in other settings. The single ketofol trial (KEEP PACE\cite{smischney2019}) used reduced doses of both components with fentanyl co-administration, limiting its generalizability.
+
+The RSI trial\cite{casey2025} merits specific consideration, as it enrolled 2,359 patients---nearly half of all patients in this review---and was the first trial powered for a mortality endpoint. Its pragmatic, multicenter design across 14 sites in the United States enhances generalizability, and its results (28-day mortality 22.2\% ketamine vs 21.5\% etomidate) anchor the network estimate. PROMINE\cite{schmidt2025} enrolled a higher-acuity ICU population in Brazil and used esketamine (the S-enantiomer) rather than racemic ketamine, though both are grouped under the ketamine node in our analysis given their similar pharmacodynamic profile at induction doses.
+
+This review has several limitations. First, most included trials were open-label, which may introduce performance bias for subjectively assessed outcomes such as hypotension. However, mortality---our primary outcome---is objective and less susceptible to ascertainment bias. Second, the treatment network is sparse: propofol and ketofol each connect to the network through a single trial, and the etomidate--propofol comparison is entirely indirect. Third, definitions of hemodynamic outcomes varied considerably across studies, particularly for hypotension thresholds and vasopressor time windows, contributing to clinical heterogeneity. Indeed, vasopressor use at 24 hours showed an $I^2$ of 93\%, precluding reliable estimation. Fourth, a planned subgroup analysis by baseline vasopressor use was not feasible because only three studies reported this variable, despite its likely role as an effect modifier. Fifth, we included two studies (Cinar 2011,\cite{cinar2011} Dormans 2014\cite{dormans2014}) in which the ketamine arm received a midazolam adjunct; sensitivity analyses excluding these trials yielded consistent results. Finally, our search was restricted to English-language publications.
+
+From a clinical perspective, etomidate and ketamine appear interchangeable with respect to mortality. The choice between them may reasonably be guided by the anticipated hemodynamic trajectory: for patients at risk of acute peri-intubation cardiovascular collapse, etomidate's hemodynamic stability offers a short-term advantage, while for patients in whom prolonged vasopressor dependence or adrenal suppression is a concern (e.g., septic shock), ketamine may be preferable. The near-complete absence of randomized evidence for propofol in emergency intubation is a critical gap that future trials should address. Equally important is the adoption of standardized hemodynamic outcome definitions to enable meaningful comparison across future studies.
 
 \newpage
 
@@ -361,6 +355,13 @@ Etomidate versus ketamine for in-hospital rapid sequence intubation: a systemati
 de Morais LB, Radel-Neto GR, Dos Santos Valsecchi VA, et al.
 Readdressing rapid sequence induction and intubation using ketamine or etomidate: a systematic review and meta-analysis of randomized clinical trials.
 \textit{Medicine}. 2025;104(19):e42207.
+
+% --- Observational studies (Discussion) ---
+
+\bibitem{maia2025}
+Maia IWA, Decker SRR, Oliveira e Silva L, et al; for the Brazilian Airway Registry Cooperation (BARCO) group.
+Ketamine, etomidate, and mortality in emergency department intubations.
+\textit{JAMA Netw Open}. 2025;8(12):e2548060.
 
 \end{thebibliography}
 \endgroup
