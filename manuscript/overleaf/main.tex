@@ -19,7 +19,6 @@
 \usepackage{setspace}
 \usepackage{caption}
 \usepackage{float}
-\usepackage{subcaption}
 
 \doublespacing
 
@@ -117,7 +116,7 @@ We searched MEDLINE (via PubMed) and Embase (via Ovid) from inception to Decembe
 
 \subsection{Study selection and data extraction}
 
-% TODO: describe screening process, two-reviewer approach
+Two reviewers independently screened titles and abstracts, followed by full-text assessment of potentially eligible reports against the predefined criteria. Disagreements were resolved through discussion. Reasons for exclusion at the full-text stage were recorded. Data were extracted independently by two reviewers using a standardized form and verified against source publications. Extracted information included study characteristics (authors, year, country, setting, single vs multicenter, funding), population (sample size, age, sex, severity scores, baseline hemodynamics, vasopressor use), interventions (agent, dose, co-induction agents, neuromuscular blocker type and dose), and arm-level outcome data with definitions and time windows.
 
 \subsection{Risk of bias assessment}
 
@@ -137,13 +136,17 @@ Pairwise meta-analysis of etomidate versus ketamine was performed using the Paul
 
 \subsection{Subgroup and sensitivity analyses}
 
-Pre-specified subgroup analyses for the primary outcome included stratification by clinical setting (emergency department, ICU, or mixed) and overall risk of bias. A planned subgroup analysis by baseline vasopressor use was not feasible because only three of ten studies reported this information.
+Pre-specified subgroup analyses for the primary outcome included stratification by clinical setting (emergency department, ICU, or mixed) and overall risk of bias. A planned subgroup analysis by baseline vasopressor use was not feasible because only three of ten studies reported this information. Similarly, degree of RSI protocolization, a predefined effect modifier, could not be formally evaluated because the distinction between strict and pragmatic protocols was not sufficiently categorical across studies.
 
 Sensitivity analyses excluded: (a) studies where the ketamine arm included a midazolam adjunct (Cinar 2011,\cite{cinar2011} Dormans 2014\cite{dormans2014}); (b) high risk-of-bias studies (Dormans 2014\cite{dormans2014}); (c) small studies ($<$30 patients per arm); and (d) analyses collapsing or removing ketofol as a separate treatment node.
 
 \subsection{Certainty of evidence}
 
 Certainty of evidence for key comparisons was assessed using the CINeMA framework (Confidence in Network Meta-Analysis),\cite{nikolakopoulou2020} evaluating six domains: within-study bias, reporting bias, indirectness, imprecision, heterogeneity, and incoherence. Ratings were classified as high, moderate, low, or very low certainty.
+
+\subsection{Use of large language models}
+
+This review made extensive use of large language models (LLMs) for transparency and reproducibility. The search strategy was designed with assistance from Gemini 3.0 Pro (Google). Screening was performed using Rayyan.ai, and selected full-text articles were retrieved by the first and last authors. Data extraction was performed by Claude Opus 4.6 (Anthropic) from source PDFs, followed by manual verification by F.J.D.S.R.\ and the first author. Risk of bias assessments were drafted by the LLM and reviewed by F.R.M. Statistical analysis code (R) was written with assistance from Claude Opus 4.6. All LLM outputs were critically reviewed and verified by the investigators.
 
 \newpage
 
@@ -154,7 +157,6 @@ Certainty of evidence for key comparisons was assessed using the CINeMA framewor
 
 \subsection{Study selection}
 
-% TODO: describe PRISMA flow
 The search identified 1,087 records after deduplication. After title/abstract screening and full-text review, 10 trials met the inclusion criteria (Figure~\ref{fig:prisma}).
 
 \subsection{Study characteristics}
@@ -169,13 +171,13 @@ Nine studies were rated as having ``some concerns'' and one (Dormans 2014\cite{d
 
 Ten trials contributed to the mortality network meta-analysis (Figure~\ref{fig:main}A). Network heterogeneity was low ($I^2$ = 25\%, $\tau^2$ = 0.015). Formal assessment of global inconsistency was not possible because only one comparison (etomidate vs ketamine) was informed by multiple studies; node-splitting similarly could not be performed as no comparison had both direct and indirect evidence.
 
-Ketamine and etomidate resulted in similar short-term mortality (OR 0.97, 95\% CI 0.81--1.16; 8 direct studies, 4,425 patients; moderate certainty) (Figure~\ref{fig:main}B, Table~\ref{tab:results}). The comparison of ketamine vs propofol was based on a single trial and showed a non-significant trend toward higher mortality with ketamine (OR 1.53, 95\% CI 0.80--2.92; low certainty). The indirect estimate for etomidate vs propofol suggested potentially lower mortality with propofol (OR 0.63, 95\% CI 0.32--1.24; very low certainty). No mortality difference was observed between etomidate and ketofol (OR 0.84, 95\% CI 0.41--1.71; 1 trial; low certainty).
+Ketamine and etomidate resulted in similar short-term mortality (OR 0.97, 95\% CI 0.81--1.16; 8 direct studies, 4,425 patients; moderate certainty) (Figure~\ref{fig:main}B, Table~\ref{tab:results}). The comparison of ketamine vs propofol was based on a single trial and showed a non-significant trend toward higher mortality with ketamine (OR 1.53, 95\% CI 0.80--2.92; low certainty). The indirect estimate for etomidate vs propofol suggested potentially lower mortality with propofol (OR 0.63, 95\% CI 0.32--1.24; very low certainty). No mortality difference was observed between etomidate and ketofol (OR 0.84, 95\% CI 0.41--1.71; 1 trial; low certainty). P-scores for mortality ranked propofol first (0.84), followed by ketofol (0.54), ketamine (0.36), and etomidate (0.26); however, these rankings should be interpreted with extreme caution given the low to very low certainty of evidence for all comparisons except etomidate--ketamine.
 
 All results are summarized in Table~\ref{tab:results}.
 
 \subsection{Secondary outcomes}
 
-Compared with etomidate, ketamine was associated with significantly higher odds of cardiovascular collapse (OR 1.44, 95\% CI 1.20--1.71; moderate certainty), post-induction hypotension (OR 1.32, 95\% CI 1.05--1.65; low certainty), and peri-intubation vasopressor use (OR 1.43, 95\% CI 1.16--1.77; low certainty). Vasopressor use at 24 hours showed substantial heterogeneity ($I^2$ = 93\%) and was not reliably estimable.
+Compared with etomidate, ketamine was associated with significantly higher odds of cardiovascular collapse (OR 1.44, 95\% CI 1.20--1.71; moderate certainty), post-induction hypotension (OR 1.32, 95\% CI 1.05--1.65; low certainty), and peri-intubation vasopressor use (OR 1.43, 95\% CI 1.16--1.77; low certainty). Vasopressor use at 24 hours showed substantial heterogeneity ($I^2$ = 93\%) and was not reliably estimable. No study reported vasopressor use at a 1-hour time point, precluding analysis at that protocol-specified interval.
 
 No differences were observed for first-pass intubation success (OR 0.94, 95\% CI 0.77--1.15; moderate certainty) or peri-intubation cardiac arrest (OR 0.97, 95\% CI 0.52--1.81; low certainty).
 
