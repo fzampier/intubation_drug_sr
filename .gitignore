@@ -1,16 +1,4 @@
 # OS files
 .DS_Store
 .Rhistory
-
-# Copyrighted PDFs and manuscripts
-Included Papers/
-PROMINE Results/
-CEPEC Proposal/
-
-# Search export files
-MA - Pubmed.txt
-MA - Embase.ris
-
-# Word binaries (markdown source is tracked)
-Table1_Landscape.docx
-extractions/All_Extractions_Bundle.docx
+Rplots.pdf
