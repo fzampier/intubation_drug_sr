@@ -15,7 +15,5 @@ Srivilaithon 2023,2023,Etomidate,25,130,28-day,ED,Some concerns,,Sepsis-only pop
 Srivilaithon 2023,2023,Ketamine,35,130,28-day,ED,Some concerns,,Sepsis-only population
 Casey 2025,2025,Etomidate,345,1186,28-day,Mixed,Some concerns,,In-hospital death by 28 days
 Casey 2025,2025,Ketamine,330,1173,28-day,Mixed,Some concerns,,In-hospital death by 28 days
-Agarwal 2025,2025,Etomidate,8,40,28-day,ED,Some concerns,,Sepsis-only population
-Agarwal 2025,2025,Ketamine,11,40,28-day,ED,Some concerns,,Sepsis-only population
 Schmidt 2025,2025,Propofol,42,84,Hospital,ICU,Some concerns,,mITT; hospital mortality censored day 60
 Schmidt 2025,2025,Ketamine,55,91,Hospital,ICU,Some concerns,,mITT; esketamine 2 mg/kg

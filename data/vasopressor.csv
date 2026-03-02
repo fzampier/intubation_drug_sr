@@ -11,8 +11,6 @@ Matchett 2022,2022,Etomidate,65,345,Peri-intubation,Post-induction,Post-inductio
 Matchett 2022,2022,Ketamine,92,354,Peri-intubation,Post-induction,Post-induction vasopressor bolus,~12% missing; nurses code sheets unavailable for 51/396 E and 41/395 K
 Srivilaithon 2023,2023,Etomidate,57,130,24 hours,Within 24 hours,Vasopressor use within 24h after intubation,
 Srivilaithon 2023,2023,Ketamine,23,130,24 hours,Within 24 hours,Vasopressor use within 24h after intubation,
-Agarwal 2025,2025,Etomidate,18,40,24 hours,Within 24 hours,Vasopressor use within 24h after intubation,
-Agarwal 2025,2025,Ketamine,7,40,24 hours,Within 24 hours,Vasopressor use within 24h after intubation,
 Casey 2025,2025,Ketamine,420,1079,24 hours,At 24 hours,Receipt of vasopressors at 24h,97 missing (died/discharged)
 Casey 2025,2025,Etomidate,458,1082,24 hours,At 24 hours,Receipt of vasopressors at 24h,107 missing (died/discharged)
 Jabre 2009,2009,Etomidate,137,234,Extended,During ICU stay,Any catecholamine support during ICU stay,

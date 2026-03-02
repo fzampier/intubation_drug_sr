@@ -5,7 +5,5 @@ Srivilaithon 2023,2023,Etomidate,15,130,SBP<90 or MAP<65 mmHg,Peri-intubation,
 Srivilaithon 2023,2023,Ketamine,14,130,SBP<90 or MAP<65 mmHg,Peri-intubation,
 Casey 2025,2025,Ketamine,164,1138,SBP<80 mmHg,Induction to 2 min after intubation,38 patients missing SBP data
 Casey 2025,2025,Etomidate,123,1159,SBP<80 mmHg,Induction to 2 min after intubation,30 patients missing SBP data
-Agarwal 2025,2025,Etomidate,5,40,Post-intubation hypotension,Peri-intubation,Definition not explicitly specified
-Agarwal 2025,2025,Ketamine,4,40,Post-intubation hypotension,Peri-intubation,Definition not explicitly specified
 Schmidt 2025,2025,Ketamine,34,91,SBP<80 mmHg,Within 1 hour,
 Schmidt 2025,2025,Propofol,39,84,SBP<80 mmHg,Within 1 hour,
