@@ -1,7 +1,7 @@
 study,year,country,journal,setting,multicenter,n_randomized,n_analyzed,comparison,treat1,treat2,blinding,registration,rob_overall,sepsis_only,midazolam_adjunct,cluster_randomized,primary_endpoint_original,severity_score_type,severity_score_mean
 Jabre 2009,2009,France,Lancet,Mixed,Yes,655,469,Etomidate vs Ketamine,Etomidate,Ketamine,Single-blind,NCT00440102,Some concerns,No,No,No,Max SOFA,SAPS II,50.9
 Cinar 2011,2011,Turkey,J Turkish Soc Intensive Care,ICU,No,22,22,Etomidate vs Ketamine,Etomidate,Ketamine,Double-blind,None,Some concerns,No,Yes,No,Hemodynamic response,APACHE II,30.2
-Dormans 2014,2014,Netherlands,Neth J Crit Care,ICU,No,301,301,Etomidate vs Ketamine,Etomidate,Ketamine,Open-label,ISRCTN39347168,High risk,No,Yes,Yes,28-day mortality,APACHE II,24.5
+Punt 2014,2014,Netherlands,Neth J Crit Care,ICU,No,301,301,Etomidate vs Ketamine,Etomidate,Ketamine,Open-label,ISRCTN39347168,High risk,No,Yes,Yes,28-day mortality,APACHE II,24.5
 Smischney 2019,2019,USA,J Trauma Acute Care Surg,ICU,No,160,152,Etomidate vs Ketofol,Etomidate,Ketofol,Open-label,NCT02105415,Some concerns,No,No,No,MAP change at 5 min,APACHE III,86.3
 Matchett 2022,2022,USA,Intensive Care Med,ICU,No,801,791,Etomidate vs Ketamine,Etomidate,Ketamine,Open-label,NCT02643381,Some concerns,No,No,No,Day 7 survival,Knaus,NA
 Knack 2023,2023,USA,J Emerg Med,ED,No,143,143,Etomidate vs Ketamine,Etomidate,Ketamine,Partially blinded,NCT01823328,Some concerns,No,No,No,Max SOFA,GCS median,7.5

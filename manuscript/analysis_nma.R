@@ -188,7 +188,7 @@ run_sensitivity <- function(data, label) {
   return(nma)
 }
 
-# 5a. Exclude midazolam adjunct studies (Cinar 2011 + Dormans 2014)
+# 5a. Exclude midazolam adjunct studies (Cinar 2011 + Punt 2014)
 cat("--- Sensitivity 1: Excluding midazolam adjunct studies ---\n")
 mort_s1 <- mort %>% filter(is.na(sensitivity_flag) | sensitivity_flag == "")
 nma_s1  <- run_sensitivity(mort_s1, "No midazolam adjunct (8 studies)")
@@ -200,7 +200,7 @@ if (!is.null(nma_s1)) {
 }
 dev.off()
 
-# 5b. Exclude high risk of bias (Dormans 2014)
+# 5b. Exclude high risk of bias (Punt 2014)
 cat("--- Sensitivity 2: Excluding high RoB ---\n")
 mort_s2 <- mort %>% filter(rob_overall != "High risk")
 nma_s2  <- run_sensitivity(mort_s2, "Excluding high RoB (9 studies)")

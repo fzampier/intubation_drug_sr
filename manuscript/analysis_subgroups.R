@@ -107,7 +107,7 @@ if (!is.null(nma_icu)) {
 
 cat("\n--- 2. SUBGROUP BY RISK OF BIAS ---\n\n")
 
-# Only 1 study is High risk (Dormans), rest are Some concerns.
+# Only 1 study is High risk (Punt), rest are Some concerns.
 # Still present the formal subgroup test.
 # (rob_overall already added via lookup above)
 

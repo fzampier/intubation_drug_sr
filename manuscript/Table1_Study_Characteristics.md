@@ -4,7 +4,7 @@
 |-------|--:|------------|------------|----------------|------|----------------------------|------------------------|
 | Jabre 2009 (KETASED) | 469 | Prehospital/ED → ICU, multicenter (12 sites), France | Etomidate vs Ketamine | E 0.3 mg/kg vs K 2 mg/kg | Succinylcholine 1 mg/kg | Maximum SOFA score (days 1–3) | 28-day mortality; adrenal insufficiency |
 | Cinar 2011 | 22 | ICU, single-center, Turkey | Etomidate vs Ketamine\* | E 0.3 mg/kg vs K 2 mg/kg + midazolam 0.03 mg/kg | None | Hemodynamic response | ICU mortality; cortisol levels |
-| Dormans 2014 | 301 | ICU, single-center (cluster-randomized), Netherlands | Etomidate vs S-ketamine\* | E 0.2–0.3 mg/kg vs SK 0.5 mg/kg + midazolam 2.5 mg | Rocuronium | 28-day mortality | Cortisol; ACTH stimulation test; ICU LOS |
+| Punt 2014 | 301 | ICU, single-center (cluster-randomized), Netherlands | Etomidate vs S-ketamine\* | E 0.2–0.3 mg/kg vs SK 0.5 mg/kg + midazolam 2.5 mg | Rocuronium | 28-day mortality | Cortisol; ACTH stimulation test; ICU LOS |
 | Smischney 2019 (KEEP PACE) | 152 | ICU, single-center, USA | Etomidate vs Ketofol | E 0.15 mg/kg vs KP 0.5 + 0.5 mg/kg† | Succinylcholine (57%) or rocuronium (36%) | MAP change at 5 min post-induction | Hospital mortality; adrenal insufficiency; vasopressor use |
 | Matchett 2022 (EvK) | 791 | ICU, single-center, USA | Etomidate vs Ketamine | E 0.2–0.3 mg/kg vs K 1–2 mg/kg | Rocuronium (81%) or succinylcholine (18%) | Day 7 survival | 28-day mortality; CV collapse; hemodynamics |
 | Knack 2023 | 143 | ED, single-center, USA | Etomidate vs Ketamine | E 0.3 mg/kg vs K 2 mg/kg | Succinylcholine (92%) | Maximum SOFA score‡ | 30-day mortality; hypotension; first-pass success |

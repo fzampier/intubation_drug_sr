@@ -28,7 +28,7 @@
 
 | CINeMA Domain | Judgement | Rationale |
 |---|---|---|
-| Within-study bias | Some concerns | All 8 contributing studies rated "some concerns" (7) or "high risk" (1, Dormans). Dominant concern: open-label designs in 5/8 studies. Mortality is objective, mitigating unblinding concern. |
+| Within-study bias | Some concerns | All 8 contributing studies rated "some concerns" (7) or "high risk" (1, Punt). Dominant concern: open-label designs in 5/8 studies. Mortality is objective, mitigating unblinding concern. |
 | Reporting bias | No concerns | 10 studies in NMA; funnel plot shows no clear asymmetry. Most studies pre-registered. |
 | Indirectness | No concerns | All 8 studies directly compare etomidate and ketamine in the target population (critically ill adults, emergency intubation). Settings include ED, ICU, and mixed — matching the review scope. |
 | Imprecision | Some concerns | 95% CI (0.81–1.16) includes OR = 1.0 but excludes large effects (>16% relative). Total N = 4,577 for this comparison. The CI is compatible with a modest benefit of either agent. |

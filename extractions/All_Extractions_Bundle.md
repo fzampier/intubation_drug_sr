@@ -7,13 +7,13 @@
 
 ---
 
-## Summary of Included Studies (n=10, N=4,956)
+## Summary of Included Studies (n=10, N=4,752)
 
 | Study | Year | Comparison | N | Setting | Mortality Timepoint | Deaths (Arm A) | Deaths (Arm B) |
 |-------|------|------------|---|---------|---------------------|----------------|----------------|
 | Jabre (KETASED) | 2009 | Etomidate vs Ketamine | 469 | Mixed | 28-day | 81/234 (35%) | 72/235 (31%) |
 | Cinar | 2011 | Etomidate vs Ketamine+Midazolam | 22 | ICU | ICU | 5/12 (42%) | 8/10 (80%) |
-| Dormans | 2014 | Etomidate vs S-ketamine+Midazolam | 301 | ICU | 28-day | 61/161 (38%) | 54/140 (39%) |
+| Punt | 2014 | Etomidate vs S-ketamine+Midazolam | 301 | ICU | 28-day | 61/161 (38%) | 54/140 (39%) |
 | Smischney (KEEP PACE) | 2019 | Etomidate vs Ketofol | 152 | ICU | Hospital | 26/73 (36%) | 25/79 (32%) |
 | Matchett (EvK) | 2022 | Etomidate vs Ketamine | 791 | ICU | 28-day | 142/396 (35.9%) | 131/395 (33.2%) |
 | Knack | 2023 | Etomidate vs Ketamine | 143 | ED | 30-day | 15/73 (21%) | 8/70 (11%) |
@@ -22,7 +22,7 @@
 | Agarwal | 2025 | Etomidate vs Ketamine | 80 | ED | 28-day | 8/40 (20%) | 11/40 (27.5%) |
 | Schmidt (PROMINE) | 2025 | Propofol vs Esketamine | 175 | ICU | Hospital | 42/84 (50.0%) | 55/91 (60.4%) |
 
-*Cinar and Dormans: ketamine arms had midazolam adjunct — flagged for sensitivity analysis.*
+*Cinar and Punt: ketamine arms had midazolam adjunct — flagged for sensitivity analysis.*
 
 ---
 
@@ -281,7 +281,7 @@ Not reported as first-pass. Additional sedation needed: E 1/12 (8%) vs K 1/10 (1
 
 ---
 
-# 3. Dormans 2014
+# 3. Punt 2014
 
 **Extractor:** Claude
 **Date:** 2026-02-18
@@ -1270,7 +1270,7 @@ Esketamine 69/91 (76%) vs Propofol 62/84 (74%). Relatively low — reflects ICU 
 |-------|-------------------|----------------|------------------|-----------------|---------------|---------|
 | Jabre 2009 | Low | Some concerns | Some concerns | Low | Low | **Some concerns** |
 | Cinar 2011 | Some concerns | Low | Low | Low | Some concerns | **Some concerns** |
-| Dormans 2014 | High | Some concerns | Low | Low | Low | **High risk** |
+| Punt 2014 | High | Some concerns | Low | Low | Low | **High risk** |
 | Smischney 2019 | Low | Some concerns | Low | Low | Low | **Some concerns** |
 | Matchett 2022 | Low | Some concerns | Low | Low | Low | **Some concerns** |
 | Knack 2023 | Low | Some concerns | Low | Low | Some concerns | **Some concerns** |
@@ -1279,7 +1279,7 @@ Esketamine 69/91 (76%) vs Propofol 62/84 (74%). Relatively low — reflects ICU 
 | Agarwal 2025 | Some concerns | Some concerns | Low | Low | Some concerns | **Some concerns** |
 | Schmidt 2025 | Low | Some concerns | Some concerns | Low | Some concerns | **Some concerns** |
 
-- 1 study at **high risk** of bias (Dormans 2014 — cluster randomization, open-label, systematic co-intervention)
+- 1 study at **high risk** of bias (Punt 2014 — cluster randomization, open-label, systematic co-intervention)
 - 9 studies at **some concerns** (primarily due to open-label or partially blinded designs)
 - 0 studies at low risk of bias overall
 
