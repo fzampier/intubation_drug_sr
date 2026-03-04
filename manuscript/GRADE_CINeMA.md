@@ -28,16 +28,16 @@
 
 | CINeMA Domain | Judgement | Rationale |
 |---|---|---|
-| Within-study bias | Some concerns | All 8 contributing studies rated "some concerns" (7) or "high risk" (1, Punt). Dominant concern: open-label designs in 5/8 studies. Mortality is objective, mitigating unblinding concern. |
+| Within-study bias | Some concerns | All 7 contributing studies rated "some concerns" (6) or "high risk" (1, Punt). Open-label designs in 6/7 studies, but mortality is objective and the risk-of-bias subgroup analysis showed no effect modification (p = 0.88). **Not downgraded.** |
 | Reporting bias | No concerns | 10 studies in NMA; funnel plot shows no clear asymmetry. Most studies pre-registered. |
 | Indirectness | No concerns | All 8 studies directly compare etomidate and ketamine in the target population (critically ill adults, emergency intubation). Settings include ED, ICU, and mixed — matching the review scope. |
-| Imprecision | Some concerns | 95% CI (0.81–1.16) includes OR = 1.0 but excludes large effects (>16% relative). Total N = 4,577 for this comparison. The CI is compatible with a modest benefit of either agent. |
+| Imprecision | Some concerns | 95% CI (0.80–1.16) includes OR = 1.0; on an absolute scale at 30% baseline mortality, the CI corresponds to approximately −5% to +4%, which does not exclude a clinically important difference of 2–3%. Total N = 4,345. **Downgraded one level.** |
 | Heterogeneity | No concerns | I² = 25%, tau² = 0.015. Low heterogeneity. Subgroup analyses (setting, RoB) showed no significant effect modification (p = 0.77 and p = 0.94, respectively). |
 | Incoherence | No concerns | 100% direct evidence. No meaningful indirect pathway to compare. |
 
-**Overall certainty: MODERATE** (downgraded one level for within-study bias)
+**Overall certainty: MODERATE** (downgraded one level for imprecision)
 
-**Interpretation:** Moderate certainty that etomidate and ketamine result in similar short-term mortality. The confidence interval is consistent with no clinically important difference, though a small benefit of either agent cannot be excluded.
+**Interpretation:** Moderate certainty that etomidate and ketamine probably result in similar short-term mortality. On an absolute scale, the confidence interval does not exclude a clinically important difference of 2–3%.
 
 ---
 
