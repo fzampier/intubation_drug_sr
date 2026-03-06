@@ -26,7 +26,7 @@ manuscript/
   overleaf/             LaTeX source and eFigures for Overleaf
   word/                 Word manuscript, standalone figures, build script
   cover_letter.md       Cover letter
-Protocol.pdf            Study protocol
+protocol/               Study protocol
 ```
 
 ## Reproducibility

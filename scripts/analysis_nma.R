@@ -106,7 +106,7 @@ dev.off()
 # 3e. League table
 league_mort <- netleague(nma_mort, digits = 2, bracket = "(", separator = " to ")
 write.csv(as.data.frame(league_mort$random),
-          "manuscript/league_table_mortality.csv", row.names = TRUE)
+          "manuscript/results/league_table_mortality.csv", row.names = TRUE)
 
 # 3f. P-scores (lower mortality = better)
 cat("\n--- P-scores (mortality) ---\n")
@@ -119,7 +119,7 @@ split_mort <- netsplit(nma_mort)
 print(split_mort)
 
 # Save node-splitting results
-sink("manuscript/netsplit_mortality.txt")
+sink("manuscript/results/netsplit_mortality.txt")
 print(split_mort)
 sink()
 
@@ -367,7 +367,7 @@ results <- bind_rows(
 if (!is.null(results) && nrow(results) > 0) {
   cat("\n--- NMA Summary Table ---\n")
   print(results)
-  write.csv(results, "manuscript/nma_results_summary.csv", row.names = FALSE)
+  write.csv(results, "manuscript/results/nma_results_summary.csv", row.names = FALSE)
 }
 
 cat("\n>> Summary table saved\n\n")
@@ -386,11 +386,11 @@ save_league <- function(nma_obj, filename) {
 }
 
 if (res_cv$type == "nma")
-  save_league(res_cv$result, "manuscript/league_table_cv_collapse.csv")
+  save_league(res_cv$result, "manuscript/results/league_table_cv_collapse.csv")
 if (res_fp$type == "nma")
-  save_league(res_fp$result, "manuscript/league_table_first_pass.csv")
+  save_league(res_fp$result, "manuscript/results/league_table_first_pass.csv")
 if (res_arrest$type == "nma")
-  save_league(res_arrest$result, "manuscript/league_table_cardiac_arrest.csv")
+  save_league(res_arrest$result, "manuscript/results/league_table_cardiac_arrest.csv")
 
 ###############################################################################
 #                   10. SESSION INFO                                          #
@@ -400,6 +400,6 @@ cat("\n============================================================\n")
 cat("  ALL ANALYSES COMPLETE\n")
 cat("============================================================\n")
 cat("Figures saved to: manuscript/figures/\n")
-cat("Tables saved to:  manuscript/\n\n")
+cat("Tables saved to:  manuscript/results/\n\n")
 
 sessionInfo()
