@@ -3,6 +3,7 @@
 **Systematic Review:** Induction agents for RSI in critically ill adults
 **PROSPERO:** CRD420251251225
 **Framework:** CINeMA (Confidence in Network Meta-Analysis)
+**Date:** March 2026 (updated after Agarwal 2025 exclusion; 9 studies, 4,672 patients)
 
 ---
 
@@ -10,29 +11,29 @@
 
 | Comparison | Direct studies (k) | Direct proportion | NMA OR (95% CI) |
 |---|---|---|---|
-| Etomidate vs Ketamine | 8 | 100% | 0.97 (0.81–1.16) |
+| Ketamine vs Etomidate | 7 | 100% | 0.96 (0.80–1.16) |
 | Etomidate vs Ketofol | 1 | 100% | 0.84 (0.41–1.71) |
-| Ketamine vs Propofol | 1 | 100% | 1.53 (0.80–2.92) |
+| Ketamine vs Propofol | 1 | 100% | 1.53 (0.80–2.93) |
 | Etomidate vs Propofol | 0 | 0% (indirect) | 0.63 (0.32–1.24) |
 
 **Contribution matrix (random-effects):**
-- Etomidate vs Ketamine: 100% from direct E-K studies
-- Etomidate vs Propofol: 50% E-K studies + 50% K-P study (PROMINE) — entirely indirect
+- Ketamine vs Etomidate: 100% from direct K-E studies
+- Etomidate vs Propofol: ~50% E-K studies + ~50% K-P study (PROMINE) — entirely indirect
 - Ketamine vs Propofol: 100% from PROMINE
 
 ---
 
 ## PRIMARY OUTCOME: SHORT-TERM MORTALITY
 
-### 1. Etomidate vs Ketamine — OR 0.97 (0.81–1.16)
+### 1. Ketamine vs Etomidate — OR 0.96 (0.80–1.16)
 
 | CINeMA Domain | Judgement | Rationale |
 |---|---|---|
-| Within-study bias | Some concerns | All 7 contributing studies rated "some concerns" (6) or "high risk" (1, Punt). Open-label designs in 6/7 studies, but mortality is objective and the risk-of-bias subgroup analysis showed no effect modification (p = 0.88). **Not downgraded.** |
-| Reporting bias | No concerns | 10 studies in NMA; funnel plot shows no clear asymmetry. Most studies pre-registered. |
-| Indirectness | No concerns | All 8 studies directly compare etomidate and ketamine in the target population (critically ill adults, emergency intubation). Settings include ED, ICU, and mixed — matching the review scope. |
-| Imprecision | Some concerns | 95% CI (0.80–1.16) includes OR = 1.0; on an absolute scale at 30% baseline mortality, the CI corresponds to approximately −5% to +4%, which does not exclude a clinically important difference of 2–3%. Total N = 4,345. **Downgraded one level.** |
-| Heterogeneity | No concerns | I² = 25%, tau² = 0.015. Low heterogeneity. Subgroup analyses (setting, RoB) showed no significant effect modification (p = 0.77 and p = 0.94, respectively). |
+| Within-study bias | Some concerns | All 7 contributing studies rated "some concerns" (6) or "high risk" (1, Punt). Open-label designs in 6/7 studies, but mortality is objective and the risk-of-bias subgroup analysis showed no effect modification (p = 0.88). Not downgraded. |
+| Reporting bias | No concerns | 9 studies in NMA; funnel plot shows no clear asymmetry. Most studies pre-registered. |
+| Indirectness | No concerns | All 7 studies directly compare etomidate and ketamine in the target population (critically ill adults, emergency intubation). Settings include ED, ICU, and mixed. |
+| Imprecision | Some concerns | 95% CI (0.80–1.16) includes OR = 1.0; on an absolute scale at 30% baseline mortality, the CI corresponds to approximately −5% to +4%, which does not exclude a clinically important difference of 2–3%. **Downgraded one level.** |
+| Heterogeneity | No concerns | I² = 30%, tau² = 0.017. Subgroup analyses showed no significant effect modification (setting p = 0.83; RoB p = 0.88). |
 | Incoherence | No concerns | 100% direct evidence. No meaningful indirect pathway to compare. |
 
 **Overall certainty: MODERATE** (downgraded one level for imprecision)
@@ -41,14 +42,14 @@
 
 ---
 
-### 2. Ketamine vs Propofol — OR 1.53 (0.80–2.92)
+### 2. Ketamine vs Propofol — OR 1.53 (0.80–2.93)
 
 | CINeMA Domain | Judgement | Rationale |
 |---|---|---|
-| Within-study bias | Some concerns | Based entirely on PROMINE (some concerns: open-label, mITT excluding 15.5% including pre-consent deaths). |
+| Within-study bias | Some concerns | Based entirely on PROMINE (some concerns: open-label, mITT excluding 15% including pre-consent deaths). |
 | Reporting bias | Some concerns | Only 1 direct study. Mortality was not the primary endpoint of PROMINE (primary: lowest MAP). Cannot assess small-study effects. |
 | Indirectness | Some concerns | PROMINE used esketamine 2 mg/kg (~4 mg/kg racemic equivalent) in a high-severity ICU population in Brazil (hospital mortality ~55%). Results may not generalize to ED settings, lower-acuity populations, or racemic ketamine at standard doses. |
-| Imprecision | Major concerns | Wide 95% CI (0.80–2.92) spanning from meaningful benefit to substantial harm. Only 175 patients. Point estimate suggests 53% higher mortality odds with ketamine, but not significant. |
+| Imprecision | Major concerns | Wide 95% CI (0.80–2.93) spanning from meaningful benefit to substantial harm. Only 175 patients. Point estimate suggests 53% higher mortality odds with ketamine, but not significant. |
 | Heterogeneity | No concerns | Single direct study — no heterogeneity assessable. |
 | Incoherence | No concerns | 100% direct evidence for this comparison. |
 
@@ -62,11 +63,11 @@
 
 | CINeMA Domain | Judgement | Rationale |
 |---|---|---|
-| Within-study bias | Some concerns | Entirely indirect: 50% from E-K studies (mostly "some concerns") + 50% from PROMINE ("some concerns"). Contribution-weighted RoB: some concerns. |
+| Within-study bias | Some concerns | Entirely indirect: ~50% from E-K studies (mostly "some concerns") + ~50% from PROMINE ("some concerns"). Contribution-weighted RoB: some concerns. |
 | Reporting bias | Some concerns | Indirect comparison. Component studies have no specific reporting bias concerns, but the indirect nature limits assessment. |
 | Indirectness | Major concerns | No direct evidence. The estimate relies entirely on the transitivity assumption through the ketamine node. The E-K studies and K-P study (PROMINE) differ in setting (mixed vs ICU-only), ketamine formulation (racemic vs esketamine), and population severity. |
 | Imprecision | Major concerns | Wide 95% CI (0.32–1.24) spanning from 68% relative reduction to 24% relative increase in mortality. Indirect estimation amplifies uncertainty. |
-| Heterogeneity | No concerns | Network-level I² = 25% (low). |
+| Heterogeneity | No concerns | Network-level I² = 30% (low). |
 | Incoherence | No concerns | Cannot assess — no direct evidence for this comparison. Absence of incoherence detection does not confirm coherence. |
 
 **Overall certainty: VERY LOW** (downgraded one level for within-study bias, one for indirectness [major], one for imprecision [major])
@@ -75,9 +76,9 @@
 
 ---
 
-## KEY SECONDARY OUTCOMES
+## KEY SECONDARY OUTCOMES (Ketamine vs Etomidate)
 
-### Cardiovascular Collapse — Etomidate vs Ketamine — OR 1.44 (1.20–1.71)
+### Cardiovascular Collapse — OR 1.44 (1.20–1.71)
 
 | Domain | Judgement | Rationale |
 |---|---|---|
@@ -94,7 +95,7 @@
 
 ---
 
-### Post-induction Hypotension — Etomidate vs Ketamine — OR 1.32 (1.05–1.65)
+### Post-induction Hypotension — OR 1.34 (1.07–1.68)
 
 | Domain | Judgement | Rationale |
 |---|---|---|
@@ -107,11 +108,11 @@
 
 **Overall certainty: LOW** (downgraded once for within-study bias, once for indirectness due to variable outcome definitions)
 
-**Interpretation:** Low certainty that ketamine increases peri-intubation hypotension compared to etomidate, with approximately 32% higher odds. Confidence reduced by heterogeneous outcome definitions across studies.
+**Interpretation:** Low certainty that ketamine increases peri-intubation hypotension compared to etomidate, with approximately 34% higher odds. Confidence reduced by heterogeneous outcome definitions across studies.
 
 ---
 
-### Vasopressor Use (Peri-intubation) — Etomidate vs Ketamine — OR 1.45 (1.21–1.74)
+### Vasopressor Use (Peri-intubation) — OR 1.45 (1.21–1.74)
 
 | Domain | Judgement | Rationale |
 |---|---|---|
@@ -126,12 +127,42 @@
 
 ---
 
+### First-pass Intubation Success — OR 0.95 (0.77–1.16)
+
+| Domain | Judgement | Rationale |
+|---|---|---|
+| Within-study bias | Some concerns | 5 studies, all "some concerns." |
+| Reporting bias | Some concerns | Limited studies for funnel plot assessment. |
+| Indirectness | No concerns | Objective outcome, consistently defined. |
+| Imprecision | No concerns | CI reasonably narrow around null. |
+| Heterogeneity | No concerns | I² = 0%. |
+| Incoherence | No concerns | |
+
+**Overall certainty: MODERATE** (downgraded once for within-study bias)
+
+---
+
+### Peri-intubation Cardiac Arrest — OR 1.13 (0.70–1.82)
+
+| Domain | Judgement | Rationale |
+|---|---|---|
+| Within-study bias | Some concerns | 7 studies, mostly "some concerns." |
+| Reporting bias | Some concerns | Low event rates limit detection of reporting bias. |
+| Indirectness | No concerns | Objective outcome. |
+| Imprecision | Some concerns | Wide CI crossing null; low event rates. |
+| Heterogeneity | No concerns | I² = 0%. |
+| Incoherence | No concerns | |
+
+**Overall certainty: LOW** (downgraded for within-study bias and imprecision)
+
+---
+
 ## SUMMARY OF FINDINGS TABLE — MORTALITY
 
 | Comparison | Studies (N) | OR (95% CI) | Absolute effect per 1,000 (at baseline risk 30%) | Certainty | Plain language |
 |---|---|---|---|---|---|
-| **Etomidate vs Ketamine** | 8 direct (4,577) | 0.97 (0.81–1.16) | 5 fewer to 26 more deaths | **MODERATE** | Probably little or no difference |
-| **Ketamine vs Propofol** | 1 direct (175) | 1.53 (0.80–2.92) | 44 fewer to 196 more deaths | **LOW** | May increase mortality, but very uncertain |
+| **Ketamine vs Etomidate** | 7 direct (4,345) | 0.96 (0.80–1.16) | 7 fewer to 28 more deaths | **MODERATE** | Probably little or no difference |
+| **Ketamine vs Propofol** | 1 direct (175) | 1.53 (0.80–2.93) | 44 fewer to 196 more deaths | **LOW** | May increase mortality, but very uncertain |
 | **Etomidate vs Propofol** | 0 direct (indirect) | 0.63 (0.32–1.24) | 130 fewer to 36 more deaths | **VERY LOW** | Uncertain; may reduce mortality |
 | **Etomidate vs Ketofol** | 1 direct (152) | 0.84 (0.41–1.71) | 88 fewer to 93 more deaths | **LOW** | May result in little or no difference; very uncertain |
 
@@ -139,17 +170,16 @@
 
 ---
 
-## SUMMARY OF FINDINGS TABLE — KEY SECONDARY OUTCOMES (Etomidate vs Ketamine)
+## SUMMARY OF FINDINGS TABLE — KEY SECONDARY OUTCOMES (Ketamine vs Etomidate)
 
-| Outcome | Studies (N) | OR (95% CI) | Certainty | Direction |
+| Outcome | Studies | OR (95% CI) | Certainty | Direction |
 |---|---|---|---|---|
-| CV collapse | 2 (2,760) | 1.44 (1.20–1.71) | **MODERATE** | Ketamine increases risk |
-| Hypotension | 4 (2,899) | 1.32 (1.05–1.65) | **LOW** | Ketamine probably increases risk |
-| Vasopressor (peri) | 3 (3,086) | 1.45 (1.21–1.74) | **LOW** | Ketamine increases short-term use |
-| First-pass success | 5 (3,303) | 0.94 (0.77–1.15) | **MODERATE** | Probably no difference |
-| Cardiac arrest | 6 (3,895) | 1.12 (0.70–1.80) | **LOW** | Uncertain; probably no difference |
+| CV collapse | 2 | 1.44 (1.20–1.71) | **MODERATE** | Ketamine increases risk |
+| Hypotension | 4 | 1.34 (1.07–1.68) | **LOW** | Ketamine may increase risk |
+| Vasopressor (peri) | 5 | 1.45 (1.21–1.74) | **LOW** | Ketamine increases short-term use |
+| First-pass success | 5 | 0.95 (0.77–1.16) | **MODERATE** | Probably no difference |
+| Cardiac arrest | 7 | 1.13 (0.70–1.82) | **LOW** | Uncertain; probably no difference |
 
 ---
 
 *Assessment performed following the CINeMA framework (Nikolakopoulou et al., 2020) and GRADE guidance for network meta-analysis (Brignardello-Petersen et al., 2018).*
-*Date: February 2026*

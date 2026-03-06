@@ -14,6 +14,7 @@ CEPEC Proposal/
 
 # Claude Code config
 .claude/
+CLAUDE.md
 
 # Internal working notes
 MEMORY.md
