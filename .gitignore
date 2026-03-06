@@ -2,3 +2,20 @@
 .DS_Store
 .Rhistory
 Rplots.pdf
+
+# Copyrighted PDFs
+Included Papers/
+
+# Unpublished PROMINE revision files
+PROMINE Results/
+
+# CEPEC Proposal (separate project)
+CEPEC Proposal/
+
+# Claude Code config
+.claude/
+
+# Internal working notes
+MEMORY.md
+PROMINE_summary.md
+resposta_flavia.md
