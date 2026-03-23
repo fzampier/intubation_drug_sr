@@ -356,7 +356,7 @@ add_para('This review has several limitations. First, most included trials were 
 # ============================================================================
 doc.add_heading('Conclusions', level=1)
 
-add_para('Etomidate and ketamine probably result in similar short-term mortality, but confidence intervals do not exclude clinically important differences in either direction, and ketamine is probably associated with more peri-intubation hemodynamic instability. Evidence for propofol is limited to a single trial. Large uncertainty remains regarding the optimal drug for emergency intubation of critically ill patients. Further trials\u2014particularly testing propofol against etomidate and ketamine\u2014are needed.')
+add_para('Etomidate and ketamine probably result in similar short-term mortality, but confidence intervals do not exclude clinically important differences in either direction, and ketamine is probably associated with more peri-intubation hemodynamic instability. Evidence for propofol is limited to a single trial. Large uncertainty remains regarding the optimal drug for emergency intubation of critically ill patients. Further trials are needed.')
 
 doc.add_page_break()
 
@@ -378,7 +378,7 @@ references = [
     "de Morais LB, Radel-Neto GR, Dos Santos Valsecchi VA, et al. Readdressing rapid sequence induction and intubation using ketamine or etomidate: a systematic review and meta-analysis of randomized clinical trials. Medicine. 2025;104(19):e42207.",
     "Koroki T, Kotani Y, Yaguchi T, et al. Ketamine versus etomidate as an induction agent for tracheal intubation in critically ill adults: a Bayesian meta-analysis. Crit Care. 2024;28(1):48.",
     "Casey JD, Seitz KP, Driver BE, et al. Ketamine or etomidate for tracheal intubation of critically ill adults. N Engl J Med. 2025. doi:10.1056/NEJMoa2511420.",
-    "Schmidt RC, Zampieri FG, Ramos FJDS, et al. Propofol versus esketamine for rapid sequence intubation of critically ill patients (PROMINE): a randomized clinical trial. Intensive Care Med. 2025 (accepted).",
+    "Schmidt RC, Zampieri FG, Ramos FJDS, et al. Propofol versus esketamine for rapid sequence intubation of critically ill patients (PROMINE): a randomized clinical trial. Intensive Care Med. 2026. https://doi.org/10.1007/s00134-026-08351-3. Online first March 23, 2026.",
     "Hutton B, Salanti G, Caldwell DM, et al. The PRISMA extension statement for reporting of systematic reviews incorporating network meta-analyses of health care interventions: checklist and explanations. Ann Intern Med. 2015;162(11):777\u2013784.",
     "Cinar O, Pirat A, Zeyneloglu P, et al. Hemodynamic and metabolic responses to ketamine and etomidate sedations during endotracheal intubation in critically ill patients. Turk Yogun Bakim Dernegi Derg. 2011;9:77\u201384.",
     "Sterne JAC, Savovi\u0107 J, Page MJ, et al. RoB 2: a revised tool for assessing risk of bias in randomised trials. BMJ. 2019;366:l4898.",
