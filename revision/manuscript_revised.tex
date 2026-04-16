@@ -1,0 +1,555 @@
+% ============================================================================
+% Induction agents for emergency tracheal intubation in critically ill adults:
+% a systematic review and network meta-analysis
+% ============================================================================
+\documentclass[11pt]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{float}
+
+\doublespacing
+
+% Column types for tables
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+% ============================================================================
+\begin{document}
+
+% --- Title Page ---
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\LARGE\bfseries Induction agents for emergency tracheal intubation in critically ill adults: a systematic review and network meta-analysis\par}
+\vspace{1.5cm}
+{\large
+Fernando G.\ Zampieri, MD, PhD$^{1,2,5}$;
+Raysa C.\ Schmidt, MD$^{2,5}$;
+Bruno A.M.P.\ Besen, MD, PhD$^{2,5}$;
+Fernando J.D.S.\ Ramos, MD, PhD$^{2,5}$;
+Fran\c{c}ois Lamontagne, MD, MSc$^{3}$;
+Neill K.J.\ Adhikari, MDCM, MSc$^{4}$;
+Fl\'avio G.R.\ Freitas, MD, PhD$^{2,5}$;
+Fl\'avia R.\ Machado, MD, PhD$^{2,5}$\\[0.3cm]
+for the PROMINE Investigators
+\par}
+\vspace{1.5cm}
+{\normalsize
+$^{1}$ Department of Critical Care Medicine, University of Alberta, Edmonton, Canada\\
+$^{2}$ Intensive Care Department, Hospital S\~ao Paulo, Escola Paulista de Medicina, Universidade Federal de S\~ao Paulo, S\~ao Paulo, SP, Brazil\\
+$^{3}$ Department of Medicine, Universit\'e de Sherbrooke, Sherbrooke, Canada\\
+$^{4}$ Department of Critical Care Medicine, Sunnybrook Health Sciences Centre, University of Toronto, Toronto, Canada\\
+$^{5}$ Brazilian Research in Intensive Care Network (BRICNet)\\
+\vspace{1cm}
+\textbf{Corresponding author:}\\
+Fernando G.\ Zampieri\\
+CSB 2-124, 8440 112 St NW, Edmonton, AB, T6G 2B7, Canada\\
+fzampier@ualberta.ca\\
+\vspace{1cm}
+\textbf{Word count:} Abstract: 249 / Manuscript: 3,067\\
+\textbf{PROSPERO:} CRD420251251225\\
+}
+\end{titlepage}
+
+% ============================================================================
+% ABSTRACT
+% ============================================================================
+\section*{Abstract}
+
+\textbf{Background:}
+Etomidate, ketamine, and propofol are all used as induction agents for emergency tracheal intubation in critically ill adults but it remains uncertain which agent should be preferable.
+
+\textbf{Methods:}
+We searched MEDLINE and Embase (inception to December 2025) for randomized controlled trials comparing etomidate, ketamine, propofol, or ketamine--propofol combination (ketofol) for emergency or rapid sequence intubation in critically ill adults. We performed random-effects network meta-analysis using the frequentist framework. The primary outcome was short-term mortality (28--30 day, or ICU/in-hospital mortality when unavailable). Secondary outcomes included cardiovascular collapse, post-induction hypotension, vasopressor use, first-pass intubation success, and peri-intubation cardiac arrest. Certainty of evidence was assessed using the CINeMA framework.
+
+\textbf{Results:}
+Nine trials (4,672 patients, four treatments) were included. Ketamine and etomidate probably result in similar mortality (OR 0.96, 95\% CI 0.80--1.16; $I^2$ = 30\%; moderate certainty). Evidence for other mortality comparisons was very uncertain: ketamine vs propofol (OR 1.53, 0.80--2.93; 1 trial; low certainty) and etomidate vs propofol (OR 0.63, 0.32--1.24; indirect only; very low certainty). Compared with etomidate, ketamine probably increases cardiovascular collapse (OR 1.44, 1.20--1.71; moderate certainty) and may increase post-induction hypotension (OR 1.34, 1.07--1.68; low certainty) and peri-intubation vasopressor use (OR 1.45, 1.21--1.74; low certainty). There was probably little or no difference in first-pass intubation success or cardiac arrest.
+
+\textbf{Conclusions:}
+Etomidate and ketamine probably result in similar mortality, but confidence intervals are compatible with clinically important differences in either direction---ketamine probably causes more peri-intubation hemodynamic instability. Beyond one trial, no randomized evidence exists for propofol in emergency intubation of critically ill adults.
+
+\textbf{Keywords:} intubation; rapid sequence induction; etomidate; ketamine; propofol; network meta-analysis; critically ill
+
+\newpage
+
+% ============================================================================
+% INTRODUCTION
+% ============================================================================
+\section{Introduction}
+
+Emergency tracheal intubation in critically ill patients is a high-risk procedure. In the INTUBE study, an international cohort of nearly 3,000 patients, major adverse peri-intubation events occurred in 45\% of cases, including cardiovascular instability in 43\% and cardiac arrest in 3\%.\cite{russotto2021} Peri-intubation cardiac arrest is independently associated with increased mortality, with hemodynamic instability at induction identified as a key risk factor.\cite{dejong2018} The choice of induction agent is one of the few modifiable factors that may influence peri-intubation hemodynamics.
+
+The choice of induction agent varies globally. In the INTUBE cohort spanning 29 countries, propofol was the most frequently used induction agent for emergency intubation, whereas etomidate, ketamine, and midazolam were each used less often.\cite{russotto2021} Practice differs in North America, where etomidate accounts for approximately 90\% of rapid sequence intubations in emergency departments, with ketamine use growing but still below 15\%.\cite{brown2015,april2020} Etomidate provides reliable hemodynamic stability but inhibits 11$\beta$-hydroxylase, causing transient adrenal suppression even after a single dose---a concern particularly in septic patients.\cite{albert2011} Ketamine exerts sympathomimetic effects through endogenous catecholamine release, but may cause myocardial depression in catecholamine-depleted patients.\cite{waxman1980} Propofol causes dose-dependent vasodilation that limits its use in hemodynamically unstable patients, yet it remains the most widely used induction agent for emergency intubation worldwide. Ketamine--propofol combinations (ketofol) have been proposed to balance these pharmacodynamic profiles.
+
+Several pairwise meta-analyses have compared etomidate and ketamine for emergency intubation,\cite{kotani2023,greer2025,daghmouri2025,demorais2025} generally finding no statistically significant difference in mortality; a Bayesian meta-analysis, however, found a moderate probability that ketamine may reduce mortality.\cite{koroki2024} These analyses were limited to the etomidate--ketamine comparison and could not incorporate evidence from trials involving propofol or ketofol. Two recent trials have substantially changed the evidence landscape: the RSI trial\cite{casey2025} (2,359 patients), the largest randomized comparison of etomidate and ketamine to date; and the PROMINE trial,\cite{schmidt2025} the first randomized trial comparing propofol with ketamine for emergency intubation in critically ill patients, thereby enabling a network meta-analysis beyond the etomidate--ketamine dyad.
+
+We therefore conducted a systematic review and network meta-analysis comparing etomidate, ketamine, propofol, and ketofol for emergency tracheal intubation in critically ill adults, with short-term mortality as the primary outcome.
+
+% ============================================================================
+% METHODS
+% ============================================================================
+\section{Methods}
+
+This systematic review and network meta-analysis was registered on PROSPERO (CRD42025\allowbreak{}1251225) and is reported in accordance with the PRISMA-NMA extension.\cite{hutton2015}
+
+\subsection{Eligibility criteria}
+
+We included parallel-group randomized controlled trials comparing etomidate, ketamine (including esketamine or S-ketamine), propofol, or ketamine--propofol combination (ketofol) as induction agents for emergency or rapid sequence intubation in critically ill or acutely ill adults ($\geq$16 years). Studies were eligible regardless of clinical setting (emergency department, intensive care unit, prehospital, or acute hospital ward). Co-interventions (opioids, neuromuscular blocking agents, preoxygenation strategies) were permitted if applied similarly across treatment arms.
+
+We excluded observational studies, crossover trials, simulation or volunteer studies, conference abstracts without sufficient data for risk of bias assessment and effect estimation, studies of elective or operating-room intubations, procedural sedation without intubation, studies focused on post-intubation sedation rather than induction, pediatric studies in which adult data could not be isolated, elective surgical populations without acute critical illness, and studies where the randomized intervention was not the hypnotic induction agent. Only English-language publications were included; one eligible study published in Turkish (Cinar 2011\cite{cinar2011}) was retained because sufficient information was available from its English-language abstract and AI-assisted translation (Claude, Anthropic).
+
+\subsection{Information sources and search strategy}
+
+We searched MEDLINE (via PubMed) and Embase (via Ovid) from inception to December 2025. Forward citation searching of included trials was performed to identify additional relevant studies. Trial registries (ClinicalTrials.gov, WHO ICTRP) were consulted for contextual information. The complete search strategies are provided in the Supplement.
+
+\subsection{Study selection and data extraction}
+
+Search results were imported into a systematic review platform (Rayyan, Rayyan Systems Inc., Cambridge, MA) for deduplication and screening. Two reviewers independently screened titles and abstracts; disagreements at this stage were resolved by consensus. This was followed by full-text assessment of potentially eligible reports against the predefined criteria. Disagreements were resolved through discussion. Reasons for exclusion at the full-text stage were recorded. Data were extracted independently by two reviewers using a standardized form and verified against source publications. Extracted information included study characteristics (authors, year, country, setting, single vs multicenter, funding), population (sample size, age, sex, severity scores, baseline hemodynamics, vasopressor use), interventions (agent, dose, co-induction agents, neuromuscular blocker type and dose), and arm-level outcome data with definitions and time windows.
+
+\subsection{Risk of bias assessment}
+
+Risk of bias was assessed using the Cochrane Risk of Bias 2 (RoB 2) tool\cite{sterne2019} across five domains: randomization process, deviations from intended interventions, missing outcome data, measurement of the outcome, and selection of the reported result. Each study was rated as low risk, some concerns, or high risk of bias.
+
+\subsection{Outcomes}
+
+The primary outcome was short-term mortality, defined as 28--30 day mortality where reported, or ICU or in-hospital mortality when 28--30 day data were unavailable. Secondary outcomes included: cardiovascular collapse (composite of hypotension, vasopressor initiation or escalation, and/or cardiac arrest, as defined by individual studies); post-induction hypotension (blood pressure below study-defined thresholds within 0--15 minutes); new or escalated vasopressor use (analyzed at peri-intubation and 24-hour time points separately); first-pass intubation success; and peri-intubation cardiac arrest. All binary outcomes were analyzed as odds ratios (OR) with 95\% confidence intervals (CI).
+
+\subsection{Statistical analysis}
+
+Arm-level binary data were converted to study-level contrasts (log OR and standard error) using the \texttt{pairwise()} function from the \textit{meta} package (version 8.2-1).\cite{balduzzi2019} Random-effects network meta-analysis was performed using the frequentist approach implemented in the \textit{netmeta} package (version 3.3-1)\cite{rucker2020} in R (version 4.5.2). Etomidate was designated as the reference treatment. Esketamine and S-ketamine were grouped under the ketamine node.
+
+Between-study heterogeneity was quantified using $I^2$ and $\tau^2$. Global inconsistency was evaluated using the design-by-treatment interaction test, and local inconsistency was assessed through node-splitting. Treatment rankings were summarized using P-scores.\cite{rucker2015}
+
+Pairwise meta-analysis of etomidate versus ketamine was performed using the Paule--Mandel estimator for $\tau^2$ with 95\% prediction intervals.
+
+\subsection{Subgroup and sensitivity analyses}
+
+Pre-specified subgroup analyses for the primary outcome included stratification by clinical setting (emergency department, ICU, or mixed---studies enrolling across both ED and ICU settings were classified as mixed because patients could not be disaggregated by location) and overall risk of bias. A planned subgroup analysis by baseline vasopressor use was not feasible because only three of nine studies reported this information. Similarly, degree of RSI protocolization, a predefined effect modifier, could not be formally evaluated because the distinction between strict and pragmatic protocols was not sufficiently categorical across studies. Other clinically important subgroups---such as patients with heart failure or by primary diagnosis---could not be examined because individual-study data were not available at this level.
+
+Sensitivity analyses excluded: (a) studies where the ketamine arm included a midazolam adjunct (Cinar 2011,\cite{cinar2011} Punt 2014\cite{punt2014}); and (b) analyses collapsing or removing ketofol as a separate treatment node.
+
+\subsection{Certainty of evidence}
+
+Certainty of evidence for key comparisons was assessed using the CINeMA framework (Confidence in Network Meta-Analysis),\cite{nikolakopoulou2020} evaluating six domains: within-study bias, reporting bias, indirectness, imprecision, heterogeneity, and incoherence. Ratings were classified as high, moderate, low, or very low certainty. Because the etomidate--ketamine comparison was informed entirely by direct evidence (7 trials), certainty for this comparison was assessed without indirect contributions. The etomidate--propofol comparison relied entirely on indirect evidence through the ketamine node.
+
+\subsection{Use of large language models}
+
+This review made extensive use of large language models (LLMs). The search strategy was designed with assistance from Gemini 3.0 Pro (Google). Screening was performed using Rayyan.ai, and selected full-text articles were retrieved by the first and last authors. Data extraction was performed by Claude Opus 4.6 (Anthropic) from source PDFs, with each extraction independently verified against the source publication by at least two investigators (F.J.D.S.R., F.R.M., and the first author). Risk of bias assessments were drafted by the LLM and independently reviewed by F.R.M. CINeMA certainty-of-evidence assessments were performed by F.G.Z.\ and reviewed by F.R.M. Statistical analysis code (R) was written with assistance from Claude Opus 4.6 and verified by the first author. In all cases, LLM outputs were treated as preliminary drafts requiring human verification---no extracted data point, risk-of-bias judgement, or analytical decision was accepted without investigator review. Notably, the near-identical summary statistics between Agarwal 2025 and Srivilaithon 2023 (detailed in the Supplement) were first identified by the LLM during data extraction, not by the human reviewers---illustrating a potential advantage of LLM-assisted workflows in detecting data anomalies across large volumes of extracted information. A complete numerical audit verified all extracted values against source PDFs and confirmed reproducibility of all analytical outputs. While formal validation studies comparing LLM-assisted extraction with traditional dual-reviewer approaches in critical care systematic reviews are still lacking, this workflow ensured that the final dataset reflects human-verified values throughout.
+
+% ============================================================================
+% RESULTS
+% ============================================================================
+\section{Results}
+
+\subsection{Study selection}
+
+The search identified 1,087 records after deduplication. After title/abstract screening and full-text review, 9 trials met the inclusion criteria (Figure~\ref{fig:prisma}). One additional trial (Agarwal 2025\cite{agarwal2025}) initially met the eligibility criteria but was excluded after independent review identified that its published summary statistics---including means, standard deviations, medians, and interquartile ranges across all baseline variables---were near-identical to those of Srivilaithon 2023,\cite{srivilaithon2023} a previously included study conducted in a different country with a different sample size (India vs Thailand; $N$ = 80 vs $N$ = 260), consistent with possible data fabrication. Srivilaithon 2023 was retained as the original publication: it was published two years earlier (2023 vs 2025), enrolled a larger sample, appeared in a higher-impact peer-reviewed journal, and had trial registry documentation (TCTR20210213001), whereas Agarwal 2025 reported no trial registration. A detailed comparison is provided in the Supplement.
+
+\subsection{Study characteristics}
+
+The 9 included trials\cite{jabre2009,cinar2011,punt2014,smischney2019,matchett2022,knack2023,srivilaithon2023,casey2025,schmidt2025} enrolled 4,672 patients across four treatment nodes: etomidate (8 trials), ketamine (8 trials), propofol (1 trial), and ketofol (1 trial). Studies were conducted in ICU (5 trials), emergency department (2 trials), and mixed settings (2 trials), across six countries. Sample sizes ranged from 22 to 2,359 patients. Baseline severity varied across studies but was measured using different scales (SAPS II, APACHE II, APACHE III, SAPS 3, qSOFA), precluding direct comparison; per-study values are reported in the Supplement. Baseline hemodynamics also varied: mean systolic blood pressure ranged from approximately 113 mmHg (Srivilaithon 2023, sepsis-only) to 139 mmHg (Knack 2023), and the proportion of patients receiving vasopressors at enrollment ranged from 22\% to 37\% among the three studies reporting this variable. The characteristics of included studies are presented in Table~\ref{tab:characteristics}.
+
+\subsection{Risk of bias}
+
+Eight studies were rated as having ``some concerns'' and one (Punt 2014\cite{punt2014}) as ``high risk'' of bias (Figure~\ref{fig:rob}). No trial blinded the clinician performing intubation except Cinar 2011\cite{cinar2011} (identical syringes prepared by an uninvolved clinician). Five trials blinded outcome assessors, ICU staff, or adjudicators.\cite{jabre2009,knack2023,srivilaithon2023,smischney2019,schmidt2025} Mortality, as an objective outcome, was considered less susceptible to bias from lack of blinding.
+
+\subsection{Primary outcome: short-term mortality}
+
+Nine trials contributed to the mortality network meta-analysis (Figure~\ref{fig:main}A). Network heterogeneity was low ($I^2$ = 30\%, $\tau^2$ = 0.017). Formal assessment of global inconsistency was not possible because only one comparison (etomidate vs ketamine) was informed by multiple studies; node-splitting similarly could not be performed as no comparison had both direct and indirect evidence.
+
+Ketamine and etomidate probably result in similar short-term mortality (NMA estimate: OR 0.96, 95\% CI 0.80--1.16; 7 direct studies, 4,345 patients; moderate certainty) (Figure~\ref{fig:main}B, Table~\ref{tab:results}). In the direct pairwise meta-analysis using the Paule--Mandel estimator, the pooled OR was 1.02 (95\% CI 0.77--1.36; 95\% prediction interval 0.47--2.21), consistent with the NMA result; the small numerical difference reflects the different $\tau^2$ estimators and the network structure. The comparison of ketamine vs propofol was based on a single trial and showed that ketamine may increase mortality compared with propofol, although the evidence is very uncertain (OR 1.53, 95\% CI 0.80--2.93; low certainty). The indirect estimate for etomidate vs propofol was very uncertain (OR 0.63, 95\% CI 0.32--1.24; very low certainty). Ketamine and ketofol may result in similar mortality (OR 0.84, 95\% CI 0.41--1.72; 1 trial; low certainty). P-scores for mortality ranked propofol first (0.84), followed by ketofol (0.54), ketamine (0.38), and etomidate (0.24); however, these rankings should be interpreted with extreme caution given the low to very low certainty of evidence for all comparisons except etomidate--ketamine.
+
+All results are summarized in Table~\ref{tab:results}.
+
+\subsection{Secondary outcomes}
+
+Compared with etomidate, ketamine probably increases cardiovascular collapse (OR 1.44, 95\% CI 1.20--1.71; moderate certainty) and may increase post-induction hypotension (OR 1.34, 95\% CI 1.07--1.68; low certainty) and peri-intubation vasopressor use (OR 1.45, 95\% CI 1.21--1.74; low certainty). Vasopressor use at 24 hours showed substantial heterogeneity ($I^2$ = 93\%) and was not reliably estimable. No study reported vasopressor use at a 1-hour time point, precluding analysis at that protocol-specified interval.
+
+There is probably little or no difference in first-pass intubation success (OR 0.95, 95\% CI 0.77--1.16; moderate certainty). Ketamine may result in little or no difference in peri-intubation cardiac arrest (OR 1.13, 95\% CI 0.70--1.82; low certainty).
+
+\subsection{Subgroup and sensitivity analyses}
+
+The effect of etomidate versus ketamine on mortality was consistent across clinical settings (ED, ICU, mixed; test for subgroup differences $p$ = 0.83) and across risk-of-bias categories ($p$ = 0.88). Excluding studies with midazolam adjuncts did not materially change the results. Collapsing ketofol into the ketamine node (OR 0.95, 0.80--1.12) or removing the ketofol node entirely (OR 0.96, 0.80--1.16) yielded similar estimates. A post-hoc sensitivity analysis excluding the largest trial (Casey 2025, which contributed $\sim$50\% of all patients) showed that cardiovascular collapse (OR 1.59, 1.12--2.24) and peri-intubation vasopressor use (OR 1.50, 1.06--2.15) remained significantly higher with ketamine, whereas the hypotension finding was attenuated (OR 1.01, 0.59--1.73). For vasopressor use at 24 hours, excluding Casey resolved the heterogeneity ($I^2$ dropped from 93\%), with the single remaining study (a sepsis-only population) showing higher 24-hour vasopressor use with etomidate. Cardiac arrest was unchanged (OR 1.09, 0.60--1.95). eFigures in the Supplement.
+
+\subsection{Certainty of evidence}
+
+Certainty was moderate for the etomidate--ketamine mortality comparison (downgraded for imprecision: the confidence interval does not exclude a clinically important absolute difference of 2--3\%) and for cardiovascular collapse and first-pass success. Certainty was low or very low for all other comparisons and outcomes, primarily due to imprecision, indirectness (especially for comparisons involving propofol, which relied on a single trial or indirect evidence), and heterogeneous outcome definitions (Table~\ref{tab:results}).
+
+% ============================================================================
+% DISCUSSION
+% ============================================================================
+\section{Discussion}
+
+In this systematic review and network meta-analysis of 9 randomized trials enrolling 4,672 critically ill adults, etomidate and ketamine probably result in similar short-term mortality, but confidence intervals do not exclude clinically important differences. Ketamine probably causes more peri-intubation cardiovascular instability than etomidate. Evidence for propofol and ketofol was limited to single trials.
+
+Our mortality findings are consistent with all five recent pairwise meta-analyses comparing etomidate and ketamine.\cite{kotani2023,koroki2024,greer2025,daghmouri2025,demorais2025} This analysis adds propofol and ketofol to the comparison for the first time. Notably, a large observational study from the Brazilian Airway Registry (BARCO) reported higher 28-day mortality with etomidate than with ketamine (60.5\% vs 54.4\%).\cite{maia2025} The discordance between that observational finding and the randomized evidence synthesized here likely reflects residual confounding---etomidate may be preferentially selected for patients perceived to be at higher hemodynamic risk---though the possibility of a real but modest effect that randomized trials have been underpowered to detect individually cannot be excluded.
+
+Ketamine was associated with higher odds of cardiovascular collapse, post-induction hypotension, and peri-intubation vasopressor use compared with etomidate. This may seem paradoxical given ketamine's sympathomimetic properties, but critically ill patients are often catecholamine-depleted, blunting the indirect sympathetic stimulation on which ketamine's hemodynamic stability depends. In this setting, ketamine's direct myocardial depressant effect may predominate.\cite{waxman1980} The protocol specified vasopressor analysis at up to 30 minutes, 1 hour, and 24 hours; at the 24-hour time point, substantial heterogeneity ($I^2$ = 93\%) precluded reliable estimation, highlighting the lack of standardized hemodynamic outcome definitions in this field.
+
+Two recent trials deserve specific discussion. The RSI trial\cite{casey2025} enrolled 2,359 patients---nearly half of all patients in this review---across 14 sites in the United States and was the first with mortality as the primary endpoint (28-day mortality 28.1\% ketamine vs 29.1\% etomidate). It also provided the most detailed hemodynamic data: cardiovascular collapse occurred in 22.1\% of ketamine vs 17.0\% of etomidate patients, largely driven by vasopressor escalation. These patterns are consistent with the pooled estimates in our network meta-analysis. Sensitivity analysis excluding the RSI trial showed that the cardiovascular collapse and peri-intubation vasopressor findings persisted, whereas the hypotension finding was attenuated. Induction doses varied across trials (Table~1): protocol-specified ketamine doses ranged from 1--2 mg/kg to a fixed 2 mg/kg, but actual administered doses were often lower (median 1.1 mg/kg in Matchett 2022, 1.6 mg/kg in Casey 2025). These trial doses may not fully reflect real-world practice, where many clinicians substantially reduce induction doses in hemodynamically unstable patients. Whether dose differences contributed to the heterogeneity in hemodynamic effects warrants further investigation, and future trials should consider protocolized dose adjustment based on hemodynamic status. PROMINE\cite{schmidt2025} is the only randomized trial comparing propofol with ketamine in critically ill adults. The trial enrolled 175 ICU patients in Brazil using propofol 1.5 mg/kg and esketamine 2 mg/kg; results showed that esketamine was associated with higher blood pressure in the periintubation period although numeric mortality was higher with ketamine than propofol (60\% vs 50\%, OR 1.53, 95\% CI 0.80--2.93). The propofol dose used (1.5 mg/kg) is higher than the 0.5--1.0 mg/kg that many clinicians use in hemodynamically unstable patients, and the hemodynamic findings from PROMINE should be interpreted in this context. Because PROMINE is the sole trial connecting propofol to the network, all propofol comparisons depend on it. The indirect estimate for etomidate versus propofol (OR 0.63, 95\% CI 0.32--1.24; very low certainty) suggests large statistical imprecision remains for the comparison between propofol and etomidate. Similarly, the direct ketamine--propofol comparison from PROMINE alone is too imprecise to draw definitive conclusions: the confidence interval is compatible with propofol reducing mortality by 20\% or increasing it nearly threefold. What these estimates do show is that propofol is not obviously worse than etomidate or ketamine for mortality, which should motivate larger trials. Propofol has several theoretical advantages that support equipoise: it is the most widely used induction agent for emergency intubation worldwide,\cite{russotto2021} does not cause adrenal suppression, and its dose-dependent hemodynamic effects may be attenuated at lower doses (0.5--1.0 mg/kg) than the 1.5 mg/kg used in PROMINE. Moreover, propofol-related hemodynamic instability may be amenable to prevention through protocolized co-interventions such as preemptive vasopressor administration. Notably, a secondary analysis of the INTUBE cohort found that propofol was associated with peri-intubation cardiovascular instability (OR 1.28, 95\% CI 1.05--1.57) but not with life-threatening cardiovascular collapse, suggesting that propofol-related hemodynamic effects may be transient and amenable to management.\cite{russotto2022} No trial has directly compared propofol with etomidate. The single ketofol trial (KEEP PACE\cite{smischney2019}) used reduced doses of both components with fentanyl co-administration, limiting its generalizability.
+
+Drug selection for emergency intubation is one of several modifiable factors that may influence peri-intubation outcomes in critically ill patients. Other components of a peri-intubation bundle---including standardized checklists, hemodynamic monitoring with an arterial line, fluid loading, and preemptive vasopressor administration---may mitigate cardiovascular collapse regardless of the induction agent chosen, and their interaction with drug selection warrants prospective evaluation. The best available evidence compares ketamine with etomidate: mortality is probably similar but confidence intervals do not exclude clinically important differences, and ketamine probably causes more peri-intubation hemodynamic instability. For propofol, PROMINE is the first and only randomized trial in this setting; its results are hypothesis-generating but insufficient to guide practice. No trial has compared propofol with etomidate. Further trials---particularly testing propofol against etomidate and ketamine---are needed. Standardized definitions for hemodynamic outcomes, particularly vasopressor use, are also needed to allow meaningful comparison across future studies.
+
+This review has several limitations. First, most included trials were open-label, which may introduce performance bias for subjectively assessed outcomes such as hypotension. However, mortality---our primary outcome---is objective and less susceptible to ascertainment bias. Second, the treatment network is sparse: propofol and ketofol each connect to the network through a single trial, and the etomidate--propofol comparison is entirely indirect. Formal consistency testing was not informative because no comparison had both direct and indirect evidence. Third, definitions of hemodynamic outcomes varied considerably across studies, particularly for hypotension thresholds and vasopressor time windows, contributing to clinical heterogeneity. Indeed, vasopressor use at 24 hours showed an $I^2$ of 93\%, precluding reliable estimation. Fourth, a planned subgroup analysis by baseline vasopressor use was not feasible because only three studies reported this variable, despite its likely role as an effect modifier. Fifth, we included two studies (Cinar 2011,\cite{cinar2011} Punt 2014\cite{punt2014}) in which the ketamine arm received a midazolam adjunct; sensitivity analyses excluding these trials yielded consistent results. Punt 2014 used a cluster-crossover design (alternating treatment periods); we used the study-reported estimates, which may not fully account for the cluster structure. Finally, our search was restricted to English-language publications, although one Turkish-language study was included based on its English abstract and AI-assisted translation.
+
+% ============================================================================
+% CONCLUSIONS
+% ============================================================================
+\section{Conclusions}
+
+Etomidate and ketamine probably result in similar short-term mortality, but confidence intervals do not exclude clinically important differences in either direction, and ketamine is probably associated with more peri-intubation hemodynamic instability. Evidence for propofol is limited to a single trial. Large uncertainty remains regarding the optimal drug for emergency intubation of critically ill patients. Further trials are needed.
+
+% ============================================================================
+% REFERENCES
+% ============================================================================
+\section*{References}
+
+\begingroup
+\renewcommand{\section}[2]{}
+\begin{thebibliography}{99}
+
+% References in order of first citation
+
+\bibitem{russotto2021}
+Russotto V, Myatra SN, Laffey JG, et al.
+Intubation practices and adverse peri-intubation events in critically ill patients from 29 countries.
+\textit{JAMA}. 2021;325(12):1164--1172.
+
+\bibitem{dejong2018}
+De Jong A, Rolle A, Molinari N, et al.
+Cardiac arrest and mortality related to intubation procedure in critically ill adult patients: a multicenter cohort study.
+\textit{Crit Care Med}. 2018;46(4):532--539.
+
+\bibitem{brown2015}
+Brown CA 3rd, Bair AE, Pallin DJ, Walls RM; NEAR III Investigators.
+Techniques, success, and adverse events of emergency department adult intubations.
+\textit{Ann Emerg Med}. 2015;65(4):363--370.e1.
+
+\bibitem{april2020}
+April MD, Arana A, Schauer SG, et al.
+Ketamine versus etomidate and peri-intubation hypotension: a National Emergency Airway Registry study.
+\textit{Acad Emerg Med}. 2020;27(11):1106--1115.
+
+\bibitem{albert2011}
+Albert SG, Ariyan S, Rather A.
+The effect of etomidate on adrenal function in critical illness: a systematic review.
+\textit{Intensive Care Med}. 2011;37(6):901--910.
+
+\bibitem{waxman1980}
+Waxman K, Shoemaker WC, Lippmann M.
+Cardiovascular effects of anesthetic induction with ketamine.
+\textit{Anesth Analg}. 1980;59(5):355--358.
+
+\bibitem{kotani2023}
+Kotani Y, Piersanti G, Maiucci G, et al.
+Etomidate as an induction agent for endotracheal intubation in critically ill patients: a meta-analysis of randomized trials.
+\textit{J Crit Care}. 2023;77:154317.
+
+\bibitem{greer2025}
+Greer A, Hewitt M, Khazaneh PT, et al.
+Ketamine versus etomidate for rapid sequence intubation: a systematic review and meta-analysis of randomized trials.
+\textit{Crit Care Med}. 2025;53(2):e374--e383.
+
+\bibitem{daghmouri2025}
+Daghmouri MA, Chaouch MA, Noomen M, et al.
+Etomidate versus ketamine for in-hospital rapid sequence intubation: a systematic review and meta-analysis.
+\textit{Eur J Emerg Med}. 2025;32(3):160--170.
+
+\bibitem{demorais2025}
+de Morais LB, Radel-Neto GR, Dos Santos Valsecchi VA, et al.
+Readdressing rapid sequence induction and intubation using ketamine or etomidate: a systematic review and meta-analysis of randomized clinical trials.
+\textit{Medicine}. 2025;104(19):e42207.
+
+\bibitem{koroki2024}
+Koroki T, Kotani Y, Yaguchi T, et al.
+Ketamine versus etomidate as an induction agent for tracheal intubation in critically ill adults: a Bayesian meta-analysis.
+\textit{Crit Care}. 2024;28(1):48.
+
+\bibitem{casey2025}
+Casey JD, Seitz KP, Driver BE, et al.
+Ketamine or etomidate for tracheal intubation of critically ill adults.
+\textit{N Engl J Med}. 2025. doi:10.1056/NEJMoa2511420.
+
+\bibitem{schmidt2025}
+Schmidt RC, Zampieri FG, Ramos FJDS, et al.
+Propofol versus esketamine for rapid sequence intubation of critically ill patients (PROMINE): a randomized clinical trial.
+\textit{Intensive Care Med}. 2026. \url{https://doi.org/10.1007/s00134-026-08351-3}. Online first March 23, 2026.
+
+\bibitem{hutton2015}
+Hutton B, Salanti G, Caldwell DM, et al.
+The PRISMA extension statement for reporting of systematic reviews incorporating network meta-analyses of health care interventions: checklist and explanations.
+\textit{Ann Intern Med}. 2015;162(11):777--784.
+
+\bibitem{cinar2011}
+Cinar O, Pirat A, Zeyneloglu P, et al.
+Hemodynamic and metabolic responses to ketamine and etomidate sedations during endotracheal intubation in critically ill patients.
+\textit{Turk Yogun Bakim Dernegi Derg}. 2011;9:77--84.
+
+\bibitem{sterne2019}
+Sterne JAC, Savovi\'c J, Page MJ, et al.
+RoB 2: a revised tool for assessing risk of bias in randomised trials.
+\textit{BMJ}. 2019;366:l4898.
+
+\bibitem{balduzzi2019}
+Balduzzi S, R\"ucker G, Schwarzer G.
+How to perform a meta-analysis with R: a practical tutorial.
+\textit{Evid Based Ment Health}. 2019;22(4):153--160.
+
+\bibitem{rucker2020}
+R\"ucker G, Krahn U, K\"onig J, Efthimiou O, Papakonstantinou T, Schwarzer G.
+netmeta: Network meta-analysis using frequentist methods.
+R package version 3.3-1, 2024.
+
+\bibitem{rucker2015}
+R\"ucker G, Schwarzer G.
+Ranking treatments in frequentist network meta-analysis works without resampling methods.
+\textit{BMC Med Res Methodol}. 2015;15:58.
+
+\bibitem{punt2014}
+Punt CD, Dormans TPJ, Oosterhuis WP, et al.
+Etomidate and S-ketamine for the intubation of patients on the intensive care unit: a prospective, open-label study.
+\textit{Neth J Crit Care}. 2014;18(2):4--7.
+
+\bibitem{nikolakopoulou2020}
+Nikolakopoulou A, Higgins JPT, Papakonstantinou T, et al.
+CINeMA: An approach for assessing confidence in the results of a network meta-analysis.
+\textit{PLoS Med}. 2020;17(4):e1003082.
+
+\bibitem{agarwal2025}
+Agarwal D, Goyal C.
+Comparative outcomes of etomidate versus ketamine for emergency intubation in septic patients: a randomized controlled trial.
+\textit{SSR Inst Int J Life Sci}. 2025;11(5):8348--8355.
+
+\bibitem{srivilaithon2023}
+Srivilaithon W, Bumrungphanithaworn A, Daorattanachai K, et al.
+Clinical outcomes after a single induction dose of etomidate versus ketamine for emergency department sepsis intubation: a randomized controlled trial.
+\textit{Sci Rep}. 2023;13(1):6362.
+
+\bibitem{jabre2009}
+Jabre P, Combes X, Lapostolle F, et al; for the KETASED Collaborative Study Group.
+Etomidate versus ketamine for rapid sequence intubation in acutely ill patients: a multicentre randomised controlled trial.
+\textit{Lancet}. 2009;374(9686):293--300.
+
+\bibitem{smischney2019}
+Smischney NJ, Nicholson WT, Brown DR, et al.
+Ketamine/propofol admixture vs etomidate for intubation in the critically ill: KEEP PACE randomized clinical trial.
+\textit{J Trauma Acute Care Surg}. 2019;87(4):883--891.
+
+\bibitem{matchett2022}
+Matchett G, Gasanova I, Riccio CA, et al.
+Etomidate versus ketamine for emergency endotracheal intubation: a randomized clinical trial.
+\textit{Intensive Care Med}. 2022;48(1):78--91.
+
+\bibitem{knack2023}
+Knack SKS, Prekker ME, Moore JC, et al.
+The effect of ketamine versus etomidate for rapid sequence intubation on maximum Sequential Organ Failure Assessment score: a randomized clinical trial.
+\textit{J Emerg Med}. 2023;65(5):e371--e382.
+
+\bibitem{maia2025}
+Maia IWA, Decker SRR, Oliveira e Silva L, et al; for the Brazilian Airway Registry Cooperation (BARCO) group.
+Ketamine, etomidate, and mortality in emergency department intubations.
+\textit{JAMA Netw Open}. 2025;8(12):e2548060.
+
+\bibitem{russotto2022}
+Russotto V, Tassistro E, Myatra SN, et al; for the INTUBE Study Investigators.
+Peri-intubation cardiovascular collapse in patients who are critically ill: insights from the INTUBE study.
+\textit{Am J Respir Crit Care Med}. 2022;206(4):449--458.
+
+\end{thebibliography}
+\endgroup
+
+\clearpage
+
+% ============================================================================
+% TABLES
+% ============================================================================
+
+% --- TABLE 1: Study Characteristics ---
+\begin{landscape}
+\begin{table}[p]
+\centering
+\caption{Characteristics of Included Studies}
+\label{tab:characteristics}
+\footnotesize
+\begin{tabularx}{\linewidth}{L{2.2cm} R{0.5cm} L{2.5cm} L{2cm} L{2.3cm} L{2cm} L{2.5cm} L{2.5cm}}
+\toprule
+Study & N & Population & Comparison & Induction dose & NMBA$^{\|}$ & Primary outcome (original) & Key secondary outcomes \\
+\midrule
+Jabre 2009 (KETASED)
+  & 469 & Prehospital/ED, multicenter (77), France
+  & E vs K & E 0.3 vs K 2 mg/kg & Sux 1 mg/kg
+  & Maximum SOFA (days 1--3) & 28-d mortality; cortisol levels \\[4pt]
+Cinar 2011$^{*}$
+  & 22 & ICU, single-center, Turkey
+  & E vs K & E 0.3 vs K 2 mg/kg + midaz 0.03 mg/kg & None
+  & Heart rate, MAP & Cortisol levels; SOFA day 9 \\[4pt]
+Punt 2014$^{*}$
+  & 301 & ICU, single-center, Netherlands
+  & E vs SK & E 0.2--0.3 vs SK 0.5 mg/kg + midaz 2.5 mg & Roc
+  & 28-d mortality & Cortisol levels; ICU LOS \\[4pt]
+Smischney 2019 (KEEP PACE)
+  & 152 & ICU, single-center, USA
+  & E vs Ketofol & E 0.15 vs KP 0.5\,+\,0.5 mg/kg$^{\dagger}$ & Sux (57\%) / Roc (36\%)
+  & MAP change at 5 min & New vasopressor use; cortisol levels \\[4pt]
+Matchett 2022 (EvK)
+  & 791 & ICU, single-center, USA
+  & E vs K & E 0.2--0.3 vs K 1--2 mg/kg & Roc (81\%) / Sux (18\%)
+  & Day 7 survival & 28-d mortality \\[4pt]
+Knack 2023
+  & 143 & ED, single-center, USA
+  & E vs K & E 0.3 vs K 2 mg/kg & Sux (92\%)
+  & Maximum SOFA$^{\ddagger}$ & 30-d mortality; hypotension \\[4pt]
+Srivilaithon 2023
+  & 260 & ED (sepsis), single-center, Thailand
+  & E vs K & E 0.2--0.3 vs K 1--2 mg/kg & Sux 1.5 mg/kg$^{\S}$
+  & 28-d survival & Hypotension; vasopressor use 24\,h \\[4pt]
+Casey 2025 (RSI)
+  & 2,359 & ED + ICU, multicenter (14), USA
+  & E vs K & E 0.2--0.3 vs K 1--2 mg/kg & Roc (69\%) / Sux (31\%)
+  & 28-d in-hospital mortality & CV collapse \\[4pt]
+Schmidt 2025 (PROMINE)
+  & 175 & ICU, multicenter (2), Brazil
+  & P vs ESK & P 1.5 vs ESK 2 mg/kg & Roc 1.2 mg/kg (98\%)
+  & Lowest MAP within 10 min & Hospital mortality; CV collapse \\
+\bottomrule
+\end{tabularx}
+\vspace{4pt}
+\raggedright\footnotesize
+N = patients analyzed; E = etomidate; K = ketamine; SK = S-ketamine; ESK = esketamine; P = propofol; KP = ketamine--propofol admixture; Sux = succinylcholine; Roc = rocuronium; ED = emergency department; ICU = intensive care unit; NMBA = neuromuscular blocking agent; CV = cardiovascular; LOS = length of stay; MAP = mean arterial pressure; SOFA = Sequential Organ Failure Assessment.\\
+$^{*}$Ketamine arm included midazolam adjunct --- flagged for sensitivity analysis.
+$^{\dagger}$Both drugs at reduced doses; fentanyl 50\,\textmu g co-administered.
+$^{\ddagger}$Primary outcome changed mid-trial from mortality to maximum SOFA.
+$^{\S}$NMBA use differed significantly between groups.
+$^{\|}$NMBA reporting varies across studies: some report intended treatment, others actual administration.
+\end{table}
+\end{landscape}
+
+% --- TABLE 2: NMA Results ---
+\begin{landscape}
+\begin{table}[p]
+\centering
+\caption{Summary of Network Meta-Analysis Results: Primary and Secondary Outcomes}
+\label{tab:results}
+\small
+\begin{tabularx}{\linewidth}{L{4.5cm} C{2.2cm} C{1.8cm} C{3.2cm} C{1.2cm} C{2.2cm}}
+\toprule
+\textbf{Outcome / Comparison} & \textbf{Studies, k (N)} & \textbf{Evidence} & \textbf{OR (95\% CI)} & \textbf{$I^2$} & \textbf{Certainty$^{d}$} \\
+\midrule
+\multicolumn{6}{l}{\textit{\textbf{Short-term mortality (primary outcome)}}} \\[2pt]
+\quad Ketamine vs Etomidate    & 7 (4,345)   & Direct   & 0.96 (0.80--1.16) & \multirow{4}{*}{30\%} & Moderate \\
+\quad Ketofol vs Etomidate     & 1 (152)     & Direct   & 0.84 (0.41--1.72) &  & Low \\
+\quad Propofol vs Etomidate    & 0 (---)     & Indirect & 0.63 (0.32--1.24) &  & Very low \\
+\quad Ketamine vs Propofol     & 1 (175)     & Direct   & 1.53 (0.80--2.93) &  & Low \\
+\midrule
+\multicolumn{6}{l}{\textit{\textbf{Secondary outcomes --- Ketamine vs Etomidate$^{b}$}}} \\[2pt]
+\quad Cardiovascular collapse        & 3 [2] (3,331) & NMA & 1.44 (1.20--1.71) & 0\% & Moderate \\
+\quad Post-induction hypotension     & 4 [3] (2,871) & NMA & 1.34 (1.07--1.68) & 0\% & Low \\
+\quad Vasopressor, peri-intubation   & 5 [3] (3,413) & NMA & 1.45 (1.21--1.74) & 0\% & Low \\
+\quad Vasopressor, 24 hours$^{a}$    & 2 [2] (2,421) & PW  & 0.51 (0.16--1.56) & 93\% & Very low \\
+\quad First-pass intubation success  & 5 [4] (3,718) & NMA & 0.95 (0.77--1.16) & 0\% & Moderate \\
+\quad Peri-intubation cardiac arrest & 7 [5] (4,142) & NMA & 1.13 (0.70--1.82) & 0\% & Low \\
+\bottomrule
+\end{tabularx}
+\vspace{4pt}
+\raggedright\footnotesize
+OR = odds ratio; CI = confidence interval; NMA = network meta-analysis; PW = pairwise meta-analysis. For mortality, $I^2$ refers to network-level heterogeneity; for secondary outcomes, $I^2$ is comparison-specific. For mortality comparisons, OR $<$ 1 favors the first-named treatment (lower mortality). For secondary outcomes, OR $>$ 1 indicates a higher event rate with ketamine vs etomidate. Certainty of evidence assessed using the CINeMA framework.\\
+$^{a}$Substantial heterogeneity; individual study ORs were 1.15 (Casey 2025) and 3.63 (Srivilaithon 2023) in the etomidate vs ketamine direction. Result should be interpreted with caution.\\
+$^{b}$Studies, k [direct]: total studies contributing to the NMA [direct ketamine vs etomidate comparisons]. Remaining studies contribute indirect evidence through the propofol or ketofol nodes.\\
+$^{c}$Secondary outcomes for propofol comparisons are available in the Supplement (eFigures).\\
+$^{d}$Reasons for downgrading certainty: K vs E mortality: imprecision; Ketofol vs E: imprecision, indirectness; P vs E: bias, indirectness, imprecision; K vs P: imprecision, indirectness; CV collapse: bias; hypotension: bias, indirectness; vasopressor (peri): bias, indirectness; vasopressor (24h): bias, heterogeneity, imprecision; first-pass: bias; cardiac arrest: bias, imprecision. See eTables in Supplement for detailed CINeMA assessments.
+\end{table}
+\end{landscape}
+
+\newpage
+
+% ============================================================================
+% FIGURE LEGENDS
+% ============================================================================
+
+% --- FIGURE 1: PRISMA ---
+\begin{landscape}
+\begin{figure}[p]
+\centering
+\vspace*{\fill}
+\includegraphics[height=0.78\textheight]{Figure1_PRISMA.pdf}
+\vspace*{\fill}
+\caption{\textbf{PRISMA flow diagram.} Study identification, screening, and inclusion process. MEDLINE and Embase were searched from inception to December 2025. Nine randomized controlled trials met the inclusion criteria.}
+\label{fig:prisma}
+\end{figure}
+\end{landscape}
+
+% --- FIGURE 2: Risk of Bias ---
+\begin{landscape}
+\begin{figure}[p]
+\singlespacing
+\centering
+\vspace*{\fill}
+\begin{minipage}[c]{0.48\linewidth}
+\centering
+\textbf{(A)}\\[4pt]
+\includegraphics[width=\linewidth]{ROB2.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.48\linewidth}
+\centering
+\textbf{(B)}\\[4pt]
+\includegraphics[width=\linewidth]{ROB2_2.pdf}
+\end{minipage}
+\vspace*{\fill}
+\caption{\textbf{Risk of bias assessment (Cochrane RoB 2 tool).}
+\textbf{(A)} Traffic-light plot showing domain-level judgements for each study. D1 = randomization process; D2 = deviations from intended interventions; D3 = missing outcome data; D4 = measurement of the outcome; D5 = selection of the reported result.
+\textbf{(B)} Summary plot showing the distribution of risk-of-bias judgements across all studies. Eight studies were rated as ``some concerns'' and one (Punt 2014) as ``high risk,'' driven by the cluster-randomized design and midazolam adjunct in the ketamine arm.}
+\label{fig:rob}
+\end{figure}
+\end{landscape}
+
+% --- FIGURE 3: Network + Forest ---
+\begin{landscape}
+\begin{figure}[p]
+\singlespacing
+\centering
+\vspace*{\fill}
+\includegraphics[height=0.78\textheight]{Figure3_network_forest.pdf}
+\vspace*{\fill}
+\caption{\textbf{Network geometry and pairwise meta-analysis of etomidate vs ketamine for short-term mortality.}
+\textbf{(A)} Network geometry for the mortality analysis. Node size is proportional to the total number of patients randomized to each treatment. Edge thickness is proportional to the number of studies for each direct comparison. The etomidate--ketamine comparison dominates the network (7 of 9 studies).
+\textbf{(B)} Forest plot showing the pairwise random-effects meta-analysis for etomidate vs ketamine (7 studies, 4,345 patients). Squares represent individual study estimates (size proportional to weight); the diamond represents the pooled estimate. The pooled OR was 1.02 (95\% CI 0.77--1.36; 95\% prediction interval 0.47--2.21; $I^2$ = 30\%), consistent with no difference in mortality between agents.}
+\label{fig:main}
+\end{figure}
+\end{landscape}
+
+% ============================================================================
+% DECLARATIONS
+% ============================================================================
+\newpage
+
+\section*{Declarations}
+
+\subsection*{Author contributions}
+Fernando G.\ Zampieri: Conceptualization, methodology, formal analysis, data curation, writing original draft, supervision, project administration.
+Raysa C.\ Schmidt: Study selection, data extraction, risk of bias assessment, writing --- review and editing.
+Bruno A.M.P.\ Besen: Data extraction verification, writing --- review and editing.
+Fernando J.D.S.\ Ramos: Data extraction verification, writing --- review and editing.
+Fran\c{c}ois Lamontagne: Methodology, writing --- review and editing.
+Neill K.J.\ Adhikari: Methodology, writing --- review and editing.
+Fl\'avio G.R.\ Freitas: Conceptualization, writing --- review and editing.
+Fl\'avia R.\ Machado: Conceptualization, methodology, supervision, writing --- review and editing.
+
+\subsection*{Data sharing statement}
+All extraction data and scripts are available at \url{https://www.github.com/fzampier/intubation_drug_sr}.
+
+\end{document}
