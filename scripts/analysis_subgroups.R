@@ -3,7 +3,7 @@
 # Supplement to analysis_nma.R
 ###############################################################################
 
-projdir <- "/Users/fernandogodinhozampieri/Desktop/intubation_sr"
+projdir <- "/Users/fernandogodinhozampieri/Desktop/1_Active Research/intubation_drugs_sr"
 setwd(projdir)
 
 library(meta)
