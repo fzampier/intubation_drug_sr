@@ -4,7 +4,7 @@
 
 **Authors:** Fernando G. Zampieri, Raysa C. Schmidt, Bruno A.M.P. Besen, Fernando J.D.S. Ramos, Francois Lamontagne, Neill K.J. Adhikari, Flavio G.R. Freitas, Flavia R. Machado — for the PROMINE Investigators
 
-**Submitted to:** *Critical Care* (March 2026)
+**Published:** *Critical Care* 2026;30(1) — 12 May 2026. PMID 42121165, PMCID PMC13245039, DOI [10.1186/s13054-026-06067-w](https://doi.org/10.1186/s13054-026-06067-w). Open access. (Submitted March 2026; revision submitted 17 April 2026.)
 
 ## Summary
 
@@ -110,7 +110,7 @@ See `revision/audit_report.md` for the complete audit findings.
 
 ## Citation
 
-> Zampieri FG, Schmidt RC, Besen BAMP, Ramos FJDS, Lamontagne F, Adhikari NKJ, Freitas FGR, Machado FR, for the PROMINE Investigators. Induction agents for emergency tracheal intubation in critically ill adults: a systematic review and network meta-analysis. *Critical Care*. 2026. [Submitted]
+> Zampieri FG, Schmidt RC, Besen BAMP, Ramos FJDS, Lamontagne F, Adhikari NKJ, Freitas FGR, Machado FR, for the PROMINE Investigators. Induction agents for emergency tracheal intubation in critically ill adults: a systematic review and network meta-analysis. *Crit Care*. 2026;30(1). doi:10.1186/s13054-026-06067-w. PMID 42121165.
 
 ## Related Publications
 
