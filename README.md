@@ -6,6 +6,17 @@
 
 **Published:** *Critical Care* 2026;30(1) — 12 May 2026. PMID 42121165, PMCID PMC13245039, DOI [10.1186/s13054-026-06067-w](https://doi.org/10.1186/s13054-026-06067-w). Open access. (Submitted March 2026; revision submitted 17 April 2026.)
 
+## Correction (November 2026)
+
+After publication, a reader identified reporting errors. No estimates, results or conclusions are affected, and a correction has been requested from the journal.
+
+- **Abstract, Results, Discussion:** the indirect mortality estimate OR 0.63 (0.32–1.24) is **propofol vs etomidate**; it was labelled "etomidate vs propofol". Equivalently, etomidate vs propofol is OR 1.59 (0.81–3.14).
+- **Results:** OR 0.84 (0.41–1.72) is **ketofol vs etomidate**; it was labelled "ketamine and ketofol".
+- **Discussion:** the interval 0.80–2.93 is for **ketamine vs propofol**; it was attributed to propofol.
+- **ESM:** the eTable e3 title was reversed, and eFigure e7 was an outdated image with the Casey 2025 contrast reversed (the caption and Table 2 were already correct).
+
+The source files in this repository are corrected, and the corrected supplement is `organized_results_and_paper/ESM_corrected.pdf`. The submitted files in `revision/` and `organized_results_and_paper/main_paper.*` are kept unchanged as the record of submission.
+
 ## Summary
 
 Systematic review and network meta-analysis of nine randomized controlled trials (4,672 patients) comparing etomidate, ketamine, propofol, and ketofol for emergency or rapid sequence intubation in critically ill adults. The primary outcome was short-term mortality.

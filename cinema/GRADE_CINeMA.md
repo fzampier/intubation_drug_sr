@@ -12,13 +12,13 @@
 | Comparison | Direct studies (k) | Direct proportion | NMA OR (95% CI) |
 |---|---|---|---|
 | Ketamine vs Etomidate | 7 | 100% | 0.96 (0.80–1.16) |
-| Etomidate vs Ketofol | 1 | 100% | 0.84 (0.41–1.71) |
+| Ketofol vs Etomidate | 1 | 100% | 0.84 (0.41–1.72) |
 | Ketamine vs Propofol | 1 | 100% | 1.53 (0.80–2.93) |
-| Etomidate vs Propofol | 0 | 0% (indirect) | 0.63 (0.32–1.24) |
+| Propofol vs Etomidate | 0 | 0% (indirect) | 0.63 (0.32–1.24) |
 
 **Contribution matrix (random-effects):**
 - Ketamine vs Etomidate: 100% from direct K-E studies
-- Etomidate vs Propofol: ~50% E-K studies + ~50% K-P study (PROMINE) — entirely indirect
+- Propofol vs Etomidate: ~50% E-K studies + ~50% K-P study (PROMINE) — entirely indirect
 - Ketamine vs Propofol: 100% from PROMINE
 
 ---
@@ -59,7 +59,7 @@
 
 ---
 
-### 3. Etomidate vs Propofol — OR 0.63 (0.32–1.24)
+### 3. Propofol vs Etomidate — OR 0.63 (0.32–1.24)
 
 | CINeMA Domain | Judgement | Rationale |
 |---|---|---|
@@ -161,12 +161,12 @@
 
 | Comparison | Studies (N) | OR (95% CI) | Absolute effect per 1,000 (at baseline risk 30%) | Certainty | Plain language |
 |---|---|---|---|---|---|
-| **Ketamine vs Etomidate** | 7 direct (4,345) | 0.96 (0.80–1.16) | 7 fewer to 28 more deaths | **MODERATE** | Probably little or no difference |
-| **Ketamine vs Propofol** | 1 direct (175) | 1.53 (0.80–2.93) | 44 fewer to 196 more deaths | **LOW** | May increase mortality, but very uncertain |
-| **Etomidate vs Propofol** | 0 direct (indirect) | 0.63 (0.32–1.24) | 130 fewer to 36 more deaths | **VERY LOW** | Uncertain; may reduce mortality |
-| **Etomidate vs Ketofol** | 1 direct (152) | 0.84 (0.41–1.71) | 88 fewer to 93 more deaths | **LOW** | May result in little or no difference; very uncertain |
+| **Ketamine vs Etomidate** | 7 direct (4,345) | 0.96 (0.80–1.16) | 9 fewer (45 fewer to 32 more) deaths | **MODERATE** | Probably little or no difference |
+| **Ketamine vs Propofol** | 1 direct (175) | 1.53 (0.80–2.93) | 96 more (45 fewer to 257 more) deaths | **LOW** | May increase mortality, but very uncertain |
+| **Propofol vs Etomidate** | 0 direct (indirect) | 0.63 (0.32–1.24) | 87 fewer (179 fewer to 47 more) deaths | **VERY LOW** | Uncertain; may reduce mortality |
+| **Ketofol vs Etomidate** | 1 direct (152) | 0.84 (0.41–1.72) | 35 fewer (151 fewer to 124 more) deaths | **LOW** | May result in little or no difference; very uncertain |
 
-*Absolute effects calculated assuming a baseline mortality risk of 30% (median across included studies).*
+*Absolute effects calculated assuming a baseline mortality risk of 30% (median across included studies) in the second-named (comparator) group; corrected November 2026.*
 
 ---
 
